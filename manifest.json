@@ -1,0 +1,278 @@
+[
+  {
+    "filename": "daily_2026-08-26_capstone-streaming-pipeline.mp3",
+    "source": "daily",
+    "date": "2026-08-26",
+    "title": "🚀 Capstone: Streaming Pipeline"
+  },
+  {
+    "filename": "daily_2026-08-27_copying-snowflakebigquery-cost-optimization-tactics.mp3",
+    "source": "daily",
+    "date": "2026-08-27",
+    "title": "💰 Copying Snowflake/BigQuery Cost-Optimization Tactics"
+  },
+  {
+    "filename": "daily_2026-08-28_data-quality-frameworks-great-expectations-style.mp3",
+    "source": "daily",
+    "date": "2026-08-28",
+    "title": "✅ Data Quality Frameworks (Great Expectations Style)"
+  },
+  {
+    "filename": "daily_2026-08-29_networking-foundations.mp3",
+    "source": "daily",
+    "date": "2026-08-29",
+    "title": "🛰️ Networking Foundations"
+  },
+  {
+    "filename": "daily_2026-08-30_windows-os-internals.mp3",
+    "source": "daily",
+    "date": "2026-08-30",
+    "title": "🪟 Windows OS Internals"
+  },
+  {
+    "filename": "daily_2026-08-31_linux-os-security.mp3",
+    "source": "daily",
+    "date": "2026-08-31",
+    "title": "🐧 Linux OS Security"
+  },
+  {
+    "filename": "daily_2026-09-01_authentication-identity.mp3",
+    "source": "daily",
+    "date": "2026-09-01",
+    "title": "🔑 Authentication & Identity"
+  },
+  {
+    "filename": "ondemand_2026-09-01_the-claude-artifacts-system.mp3",
+    "source": "on-demand",
+    "date": "2026-09-01",
+    "title": "🖼️ The Claude Artifacts System"
+  },
+  {
+    "filename": "daily_2026-09-02_mitre-attck-framework.mp3",
+    "source": "daily",
+    "date": "2026-09-02",
+    "title": "🗺️ MITRE ATT&CK Framework"
+  },
+  {
+    "filename": "ondemand_2026-09-02_copying-anthropics-context-management.mp3",
+    "source": "on-demand",
+    "date": "2026-09-02",
+    "title": "🧠 Copying Anthropic's Context Management"
+  },
+  {
+    "filename": "ondemand_2026-09-02_issue-140.mp3",
+    "source": "on-demand",
+    "date": "2026-09-02",
+    "title": "issue-140"
+  },
+  {
+    "filename": "daily_2026-09-03_offensive-techniques.mp3",
+    "source": "daily",
+    "date": "2026-09-03",
+    "title": "🗡️ Offensive Techniques"
+  },
+  {
+    "filename": "daily_2026-09-04_threat-intelligence.mp3",
+    "source": "daily",
+    "date": "2026-09-04",
+    "title": "🕵️ Threat Intelligence"
+  },
+  {
+    "filename": "daily_2026-09-05_log-sources-collection.mp3",
+    "source": "daily",
+    "date": "2026-09-05",
+    "title": "📁 Log Sources & Collection"
+  },
+  {
+    "filename": "ondemand_2026-09-05_issue-147.mp3",
+    "source": "on-demand",
+    "date": "2026-09-05",
+    "title": "issue-147"
+  },
+  {
+    "filename": "daily_2026-09-06_siem-kql-spl.mp3",
+    "source": "daily",
+    "date": "2026-09-06",
+    "title": "🔍 SIEM, KQL & SPL"
+  },
+  {
+    "filename": "daily_2026-09-07_detection-as-code.mp3",
+    "source": "daily",
+    "date": "2026-09-07",
+    "title": "📜 Detection as Code"
+  },
+  {
+    "filename": "daily_2026-09-08_advanced-query-engineering.mp3",
+    "source": "daily",
+    "date": "2026-09-08",
+    "title": "🧮 Advanced Query Engineering"
+  },
+  {
+    "filename": "daily_2026-09-09_detection-methodology.mp3",
+    "source": "daily",
+    "date": "2026-09-09",
+    "title": "📋 Detection Methodology"
+  },
+  {
+    "filename": "daily_2026-09-10_endpoint-edr-detection.mp3",
+    "source": "daily",
+    "date": "2026-09-10",
+    "title": "💻 Endpoint & EDR Detection"
+  },
+  {
+    "filename": "daily_2026-09-11_network-detection.mp3",
+    "source": "daily",
+    "date": "2026-09-11",
+    "title": "🕸️ Network Detection"
+  },
+  {
+    "filename": "daily_2026-09-12_cloud-detection-azure-gcp.mp3",
+    "source": "daily",
+    "date": "2026-09-12",
+    "title": "☁️ Cloud Detection — Azure & GCP"
+  },
+  {
+    "filename": "daily_2026-09-13_incident-response.mp3",
+    "source": "daily",
+    "date": "2026-09-13",
+    "title": "🚨 Incident Response"
+  },
+  {
+    "filename": "daily_2026-09-14_digital-forensics.mp3",
+    "source": "daily",
+    "date": "2026-09-14",
+    "title": "🧪 Digital Forensics"
+  },
+  {
+    "filename": "fde_2026-09-14_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "fde",
+    "date": "2026-09-14",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
+  },
+  {
+    "filename": "ondemand_2026-09-14_the-netflixuber-medallion-data-architecture.mp3",
+    "source": "on-demand",
+    "date": "2026-09-14",
+    "title": "🥉 The Netflix/Uber Medallion Data Architecture"
+  },
+  {
+    "filename": "daily_2026-09-15_malware-analysis.mp3",
+    "source": "daily",
+    "date": "2026-09-15",
+    "title": "🦠 Malware Analysis"
+  },
+  {
+    "filename": "fde_2026-09-15_dataprep-pipeline-orchestration.mp3",
+    "source": "fde",
+    "date": "2026-09-15",
+    "title": "🕸️ DataPrep Pipeline Orchestration"
+  },
+  {
+    "filename": "daily_2026-09-16_ai-powered-detection.mp3",
+    "source": "daily",
+    "date": "2026-09-16",
+    "title": "🧠 AI-Powered Detection"
+  },
+  {
+    "filename": "fde_2026-09-16_dataprep-for-cobolmainframe-sourced-documents.mp3",
+    "source": "fde",
+    "date": "2026-09-16",
+    "title": "🖥️ DataPrep for COBOL/Mainframe-Sourced Documents"
+  },
+  {
+    "filename": "daily_2026-09-17_owasp-llm-top-10.mp3",
+    "source": "daily",
+    "date": "2026-09-17",
+    "title": "🛡️ OWASP LLM Top 10"
+  },
+  {
+    "filename": "fde_2026-09-17_pii-masking-with-presidio.mp3",
+    "source": "fde",
+    "date": "2026-09-17",
+    "title": "🕵️ PII Masking with Presidio"
+  },
+  {
+    "filename": "daily_2026-09-18_agentic-soc-architecture.mp3",
+    "source": "daily",
+    "date": "2026-09-18",
+    "title": "🏛️ Agentic SOC Architecture"
+  },
+  {
+    "filename": "fde_2026-09-18_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "fde",
+    "date": "2026-09-18",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
+  },
+  {
+    "filename": "daily_2026-09-19_llm-detection-pipeline.mp3",
+    "source": "daily",
+    "date": "2026-09-19",
+    "title": "🧩 LLM Detection Pipeline"
+  },
+  {
+    "filename": "fde_2026-09-19_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3",
+    "source": "fde",
+    "date": "2026-09-19",
+    "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
+  },
+  {
+    "filename": "daily_2026-09-20_security-metrics-as-a-program-mttdmttr-false-positive-rate-c.mp3",
+    "source": "daily",
+    "date": "2026-09-20",
+    "title": "📊 Security Metrics as a Program: MTTD/MTTR, False-Positive Rate, Coverage"
+  },
+  {
+    "filename": "fde_2026-09-20_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3",
+    "source": "fde",
+    "date": "2026-09-20",
+    "title": "🧭 Milvus & Qdrant: What a Dedicated Vector Store Buys You"
+  },
+  {
+    "filename": "daily_2026-09-21_capstone-detection-pipeline.mp3",
+    "source": "daily",
+    "date": "2026-09-21",
+    "title": "🏁 Capstone: Detection Pipeline"
+  },
+  {
+    "filename": "fde_2026-09-21_hnswivf-pq-tuning-deep-dive.mp3",
+    "source": "fde",
+    "date": "2026-09-21",
+    "title": "🎛️ HNSW/IVF-PQ Tuning Deep Dive"
+  },
+  {
+    "filename": "daily_2026-09-22_ssis-foundations.mp3",
+    "source": "daily",
+    "date": "2026-09-22",
+    "title": "🧰 SSIS Foundations"
+  },
+  {
+    "filename": "fde_2026-09-22_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3",
+    "source": "fde",
+    "date": "2026-09-22",
+    "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
+  },
+  {
+    "filename": "daily_2026-09-23_ssis-core-transformations.mp3",
+    "source": "daily",
+    "date": "2026-09-23",
+    "title": "🔁 SSIS Core Transformations"
+  },
+  {
+    "filename": "fde_2026-09-23_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3",
+    "source": "fde",
+    "date": "2026-09-23",
+    "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
+  },
+  {
+    "filename": "daily_2026-09-24_ssis-real-world-patterns.mp3",
+    "source": "daily",
+    "date": "2026-09-24",
+    "title": "🏗️ SSIS Real-World Patterns"
+  },
+  {
+    "filename": "fde_2026-09-24_streaming-vector-infra-against-legacy-sources.mp3",
+    "source": "fde",
+    "date": "2026-09-24",
+    "title": "🏚️ Streaming Vector Infra Against Legacy Sources"
+  }
+]

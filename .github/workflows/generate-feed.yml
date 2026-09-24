@@ -1,0 +1,33 @@
+name: Regenerate feed.xml
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "manifest.json"
+      - "audio/**"
+      - "scripts/generate_feed.py"
+  workflow_dispatch:
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate feed.xml
+        run: python3 scripts/generate_feed.py
+
+      - name: Commit feed.xml if changed
+        run: |
+          if git diff --quiet feed.xml; then
+            echo "feed.xml unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git commit -m "Regenerate feed.xml"
+          git push origin HEAD:main
