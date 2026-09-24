@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/feed.xml" rel="self" type="application/rss+xml" />
     <title>AI Daily Brief — Personal Audio Archive</title>
     <link>https://github.com/cwinter1/audio-personal</link>
     <description>Personal archive of daily/FDE/on-demand AI Daily Brief episodes, in listening order.</description>
@@ -19,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 24 Sep 2026 07:07:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:12:31 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>

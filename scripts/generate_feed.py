@@ -15,6 +15,7 @@ from xml.sax.saxutils import escape
 
 REPO_OWNER = "cwinter1"
 REPO_NAME = "audio-personal"
+FEED_URL = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@main/feed.xml"
 # raw.githubusercontent.com serves .xml as text/plain with X-Content-Type-Options:
 # nosniff, which made Apple Podcasts refuse the feed outright. jsDelivr's GitHub
 # CDN mirror serves the same content with correct content-type (application/xml
@@ -74,8 +75,9 @@ def generate_feed(manifest, out_path="feed.xml"):
     image_url = f"{RAW_BASE}/artwork.png"
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="{FEED_URL}" rel="self" type="application/rss+xml" />
     <title>AI Daily Brief — Personal Audio Archive</title>
     <link>{channel_link}</link>
     <description>Personal archive of daily/FDE/on-demand AI Daily Brief episodes, in listening order.</description>
