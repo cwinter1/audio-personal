@@ -20,14 +20,14 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 24 Sep 2026 07:16:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 07:18:25 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
       <pubDate>Wed, 26 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-26_capstone-streaming-pipeline.mp3" length="7291629" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-26_capstone-streaming-pipeline.mp3" length="7291629" type="audio/mpeg" />
       <description>🚀 Capstone: Streaming Pipeline (Daily, 2026-08-26)</description>
     </item>
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Thu, 27 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-27_copying-snowflakebigquery-cost-optimization-tactics.mp3" length="7569357" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-27_copying-snowflakebigquery-cost-optimization-tactics.mp3" length="7569357" type="audio/mpeg" />
       <description>💰 Copying Snowflake/BigQuery Cost-Optimization Tactics (Daily, 2026-08-27)</description>
     </item>
     <item>
@@ -45,7 +45,7 @@
       <pubDate>Fri, 28 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>3</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-28_data-quality-frameworks-great-expectations-style.mp3" length="4027680" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-28_data-quality-frameworks-great-expectations-style.mp3" length="4027680" type="audio/mpeg" />
       <description>✅ Data Quality Frameworks (Great Expectations Style) (Daily, 2026-08-28)</description>
     </item>
     <item>
@@ -54,7 +54,7 @@
       <pubDate>Sat, 29 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>4</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-29_networking-foundations.mp3" length="7690413" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-29_networking-foundations.mp3" length="7690413" type="audio/mpeg" />
       <description>🛰️ Networking Foundations (Daily, 2026-08-29)</description>
     </item>
     <item>
@@ -63,7 +63,7 @@
       <pubDate>Sun, 30 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>5</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-30_windows-os-internals.mp3" length="7665933" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-30_windows-os-internals.mp3" length="7665933" type="audio/mpeg" />
       <description>🪟 Windows OS Internals (Daily, 2026-08-30)</description>
     </item>
     <item>
@@ -72,7 +72,7 @@
       <pubDate>Mon, 31 Aug 2026 04:00:00 +0000</pubDate>
       <itunes:episode>6</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-08-31_linux-os-security.mp3" length="8205453" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-08-31_linux-os-security.mp3" length="8205453" type="audio/mpeg" />
       <description>🐧 Linux OS Security (Daily, 2026-08-31)</description>
     </item>
     <item>
@@ -81,7 +81,7 @@
       <pubDate>Tue, 01 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>7</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-01_authentication-identity.mp3" length="7664301" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-01_authentication-identity.mp3" length="7664301" type="audio/mpeg" />
       <description>🔑 Authentication &amp; Identity (Daily, 2026-09-01)</description>
     </item>
     <item>
@@ -90,7 +90,7 @@
       <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
       <itunes:episode>8</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/ondemand_2026-09-01_the-claude-artifacts-system.mp3" length="7866669" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/ondemand_2026-09-01_the-claude-artifacts-system.mp3" length="7866669" type="audio/mpeg" />
       <description>🖼️ The Claude Artifacts System (On-Demand, 2026-09-01)</description>
     </item>
     <item>
@@ -99,7 +99,7 @@
       <pubDate>Wed, 02 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>9</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-02_mitre-attck-framework.mp3" length="8046957" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-02_mitre-attck-framework.mp3" length="8046957" type="audio/mpeg" />
       <description>🗺️ MITRE ATT&amp;CK Framework (Daily, 2026-09-02)</description>
     </item>
     <item>
@@ -108,7 +108,7 @@
       <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
       <itunes:episode>10</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/ondemand_2026-09-02_copying-anthropics-context-management.mp3" length="7319373" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/ondemand_2026-09-02_copying-anthropics-context-management.mp3" length="7319373" type="audio/mpeg" />
       <description>🧠 Copying Anthropic's Context Management (On-Demand, 2026-09-02)</description>
     </item>
     <item>
@@ -117,7 +117,7 @@
       <pubDate>Wed, 02 Sep 2026 12:00:00 +0000</pubDate>
       <itunes:episode>11</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/ondemand_2026-09-02_issue-140.mp3" length="7545741" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/ondemand_2026-09-02_issue-140.mp3" length="7545741" type="audio/mpeg" />
       <description>issue-140 (On-Demand, 2026-09-02)</description>
     </item>
     <item>
@@ -126,7 +126,7 @@
       <pubDate>Thu, 03 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-03_offensive-techniques.mp3" length="7623981" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-03_offensive-techniques.mp3" length="7623981" type="audio/mpeg" />
       <description>🗡️ Offensive Techniques (Daily, 2026-09-03)</description>
     </item>
     <item>
@@ -135,7 +135,7 @@
       <pubDate>Fri, 04 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>13</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-04_threat-intelligence.mp3" length="7603917" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-04_threat-intelligence.mp3" length="7603917" type="audio/mpeg" />
       <description>🕵️ Threat Intelligence (Daily, 2026-09-04)</description>
     </item>
     <item>
@@ -144,7 +144,7 @@
       <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>14</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-05_log-sources-collection.mp3" length="4499280" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-05_log-sources-collection.mp3" length="4499280" type="audio/mpeg" />
       <description>📁 Log Sources &amp; Collection (Daily, 2026-09-05)</description>
     </item>
     <item>
@@ -153,7 +153,7 @@
       <pubDate>Sat, 05 Sep 2026 12:00:00 +0000</pubDate>
       <itunes:episode>15</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/ondemand_2026-09-05_issue-147.mp3" length="7330413" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/ondemand_2026-09-05_issue-147.mp3" length="7330413" type="audio/mpeg" />
       <description>issue-147 (On-Demand, 2026-09-05)</description>
     </item>
     <item>
@@ -162,7 +162,7 @@
       <pubDate>Sun, 06 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>16</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-06_siem-kql-spl.mp3" length="6981261" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-06_siem-kql-spl.mp3" length="6981261" type="audio/mpeg" />
       <description>🔍 SIEM, KQL &amp; SPL (Daily, 2026-09-06)</description>
     </item>
     <item>
@@ -171,7 +171,7 @@
       <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>17</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-07_detection-as-code.mp3" length="7854669" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-07_detection-as-code.mp3" length="7854669" type="audio/mpeg" />
       <description>📜 Detection as Code (Daily, 2026-09-07)</description>
     </item>
     <item>
@@ -180,7 +180,7 @@
       <pubDate>Tue, 08 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>18</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-08_advanced-query-engineering.mp3" length="7281261" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-08_advanced-query-engineering.mp3" length="7281261" type="audio/mpeg" />
       <description>🧮 Advanced Query Engineering (Daily, 2026-09-08)</description>
     </item>
     <item>
@@ -189,7 +189,7 @@
       <pubDate>Wed, 09 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>19</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-09_detection-methodology.mp3" length="8268717" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-09_detection-methodology.mp3" length="8268717" type="audio/mpeg" />
       <description>📋 Detection Methodology (Daily, 2026-09-09)</description>
     </item>
     <item>
@@ -198,7 +198,7 @@
       <pubDate>Thu, 10 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>20</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-10_endpoint-edr-detection.mp3" length="8058765" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-10_endpoint-edr-detection.mp3" length="8058765" type="audio/mpeg" />
       <description>💻 Endpoint &amp; EDR Detection (Daily, 2026-09-10)</description>
     </item>
     <item>
@@ -207,7 +207,7 @@
       <pubDate>Fri, 11 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>21</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-11_network-detection.mp3" length="7768557" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-11_network-detection.mp3" length="7768557" type="audio/mpeg" />
       <description>🕸️ Network Detection (Daily, 2026-09-11)</description>
     </item>
     <item>
@@ -216,7 +216,7 @@
       <pubDate>Sat, 12 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>22</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-12_cloud-detection-azure-gcp.mp3" length="7790733" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-12_cloud-detection-azure-gcp.mp3" length="7790733" type="audio/mpeg" />
       <description>☁️ Cloud Detection — Azure &amp; GCP (Daily, 2026-09-12)</description>
     </item>
     <item>
@@ -225,7 +225,7 @@
       <pubDate>Sun, 13 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>23</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-13_incident-response.mp3" length="7756173" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-13_incident-response.mp3" length="7756173" type="audio/mpeg" />
       <description>🚨 Incident Response (Daily, 2026-09-13)</description>
     </item>
     <item>
@@ -234,7 +234,7 @@
       <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>24</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-14_digital-forensics.mp3" length="7972461" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-14_digital-forensics.mp3" length="7972461" type="audio/mpeg" />
       <description>🧪 Digital Forensics (Daily, 2026-09-14)</description>
     </item>
     <item>
@@ -243,7 +243,7 @@
       <pubDate>Mon, 14 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>25</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-14_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7400877" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-14_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7400877" type="audio/mpeg" />
       <description>🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale (FDE, 2026-09-14)</description>
     </item>
     <item>
@@ -252,7 +252,7 @@
       <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
       <itunes:episode>26</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/ondemand_2026-09-14_the-netflixuber-medallion-data-architecture.mp3" length="7756461" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/ondemand_2026-09-14_the-netflixuber-medallion-data-architecture.mp3" length="7756461" type="audio/mpeg" />
       <description>🥉 The Netflix/Uber Medallion Data Architecture (On-Demand, 2026-09-14)</description>
     </item>
     <item>
@@ -261,7 +261,7 @@
       <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>27</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-15_malware-analysis.mp3" length="7338765" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-15_malware-analysis.mp3" length="7338765" type="audio/mpeg" />
       <description>🦠 Malware Analysis (Daily, 2026-09-15)</description>
     </item>
     <item>
@@ -270,7 +270,7 @@
       <pubDate>Tue, 15 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>28</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-15_dataprep-pipeline-orchestration.mp3" length="7979853" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-15_dataprep-pipeline-orchestration.mp3" length="7979853" type="audio/mpeg" />
       <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-09-15)</description>
     </item>
     <item>
@@ -279,7 +279,7 @@
       <pubDate>Wed, 16 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>29</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-16_ai-powered-detection.mp3" length="7638957" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-16_ai-powered-detection.mp3" length="7638957" type="audio/mpeg" />
       <description>🧠 AI-Powered Detection (Daily, 2026-09-16)</description>
     </item>
     <item>
@@ -288,7 +288,7 @@
       <pubDate>Wed, 16 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>30</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-16_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7662957" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-16_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7662957" type="audio/mpeg" />
       <description>🖥️ DataPrep for COBOL/Mainframe-Sourced Documents (FDE, 2026-09-16)</description>
     </item>
     <item>
@@ -297,7 +297,7 @@
       <pubDate>Thu, 17 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>31</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-17_owasp-llm-top-10.mp3" length="7784781" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-17_owasp-llm-top-10.mp3" length="7784781" type="audio/mpeg" />
       <description>🛡️ OWASP LLM Top 10 (Daily, 2026-09-17)</description>
     </item>
     <item>
@@ -306,7 +306,7 @@
       <pubDate>Thu, 17 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>32</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-17_pii-masking-with-presidio.mp3" length="7310061" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-17_pii-masking-with-presidio.mp3" length="7310061" type="audio/mpeg" />
       <description>🕵️ PII Masking with Presidio (FDE, 2026-09-17)</description>
     </item>
     <item>
@@ -315,7 +315,7 @@
       <pubDate>Fri, 18 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>33</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-18_agentic-soc-architecture.mp3" length="7985805" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-18_agentic-soc-architecture.mp3" length="7985805" type="audio/mpeg" />
       <description>🏛️ Agentic SOC Architecture (Daily, 2026-09-18)</description>
     </item>
     <item>
@@ -324,7 +324,7 @@
       <pubDate>Fri, 18 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>34</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-18_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7887213" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-18_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7887213" type="audio/mpeg" />
       <description>🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale (FDE, 2026-09-18)</description>
     </item>
     <item>
@@ -333,7 +333,7 @@
       <pubDate>Sat, 19 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>35</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-19_llm-detection-pipeline.mp3" length="8203917" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-19_llm-detection-pipeline.mp3" length="8203917" type="audio/mpeg" />
       <description>🧩 LLM Detection Pipeline (Daily, 2026-09-19)</description>
     </item>
     <item>
@@ -342,7 +342,7 @@
       <pubDate>Sat, 19 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>36</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-19_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="7893645" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-19_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="7893645" type="audio/mpeg" />
       <description>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale (FDE, 2026-09-19)</description>
     </item>
     <item>
@@ -351,7 +351,7 @@
       <pubDate>Sun, 20 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>37</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-20_security-metrics-as-a-program-mttdmttr-false-positive-rate-c.mp3" length="7554189" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-20_security-metrics-as-a-program-mttdmttr-false-positive-rate-c.mp3" length="7554189" type="audio/mpeg" />
       <description>📊 Security Metrics as a Program: MTTD/MTTR, False-Positive Rate, Coverage (Daily, 2026-09-20)</description>
     </item>
     <item>
@@ -360,7 +360,7 @@
       <pubDate>Sun, 20 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>38</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-20_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3" length="7855629" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-20_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3" length="7855629" type="audio/mpeg" />
       <description>🧭 Milvus &amp; Qdrant: What a Dedicated Vector Store Buys You (FDE, 2026-09-20)</description>
     </item>
     <item>
@@ -369,7 +369,7 @@
       <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>39</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-21_capstone-detection-pipeline.mp3" length="7690605" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-21_capstone-detection-pipeline.mp3" length="7690605" type="audio/mpeg" />
       <description>🏁 Capstone: Detection Pipeline (Daily, 2026-09-21)</description>
     </item>
     <item>
@@ -378,7 +378,7 @@
       <pubDate>Mon, 21 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>40</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-21_hnswivf-pq-tuning-deep-dive.mp3" length="7949421" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-21_hnswivf-pq-tuning-deep-dive.mp3" length="7949421" type="audio/mpeg" />
       <description>🎛️ HNSW/IVF-PQ Tuning Deep Dive (FDE, 2026-09-21)</description>
     </item>
     <item>
@@ -387,7 +387,7 @@
       <pubDate>Tue, 22 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>41</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-22_ssis-foundations.mp3" length="7405101" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-22_ssis-foundations.mp3" length="7405101" type="audio/mpeg" />
       <description>🧰 SSIS Foundations (Daily, 2026-09-22)</description>
     </item>
     <item>
@@ -396,7 +396,7 @@
       <pubDate>Tue, 22 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>42</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-22_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3" length="7611021" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-22_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3" length="7611021" type="audio/mpeg" />
       <description>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (FDE, 2026-09-22)</description>
     </item>
     <item>
@@ -405,7 +405,7 @@
       <pubDate>Wed, 23 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>43</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-23_ssis-core-transformations.mp3" length="7674477" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-23_ssis-core-transformations.mp3" length="7674477" type="audio/mpeg" />
       <description>🔁 SSIS Core Transformations (Daily, 2026-09-23)</description>
     </item>
     <item>
@@ -414,7 +414,7 @@
       <pubDate>Wed, 23 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>44</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-23_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3" length="7334157" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-23_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3" length="7334157" type="audio/mpeg" />
       <description>📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines (FDE, 2026-09-23)</description>
     </item>
     <item>
@@ -423,7 +423,7 @@
       <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
       <itunes:episode>45</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/daily_2026-09-24_ssis-real-world-patterns.mp3" length="7931085" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-24_ssis-real-world-patterns.mp3" length="7931085" type="audio/mpeg" />
       <description>🏗️ SSIS Real-World Patterns (Daily, 2026-09-24)</description>
     </item>
     <item>
@@ -432,7 +432,7 @@
       <pubDate>Thu, 24 Sep 2026 05:00:00 +0000</pubDate>
       <itunes:episode>46</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
-      <enclosure url="https://cwinter1.github.io/audio-personal/audio/fde_2026-09-24_streaming-vector-infra-against-legacy-sources.mp3" length="8001741" type="audio/mpeg" />
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-24_streaming-vector-infra-against-legacy-sources.mp3" length="8001741" type="audio/mpeg" />
       <description>🏚️ Streaming Vector Infra Against Legacy Sources (FDE, 2026-09-24)</description>
     </item>
   </channel>

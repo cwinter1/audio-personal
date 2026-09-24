@@ -17,14 +17,19 @@ REPO_OWNER = "cwinter1"
 REPO_NAME = "audio-personal"
 # raw.githubusercontent.com serves .xml as text/plain with X-Content-Type-Options:
 # nosniff, which made Apple Podcasts refuse the feed outright (attempt 1). jsDelivr's
-# GitHub CDN mirror fixed content-type but Apple's crawler still couldn't subscribe
-# (attempt 2) -- CDN bot-detection/WAF friction is the leading suspect, though never
-# confirmed since Apple gives no detail. GitHub Pages (attempt 3) is the standard,
-# widely-used host for exactly this pattern and has no history of that kind of
-# crawler friction.
+# GitHub CDN mirror fixed that but Apple still couldn't subscribe (attempt 2).
+# GitHub Pages fixed feed.xml's content-type too, but its mime map serves .mp3 as
+# "audio/mp3" (non-standard) while the feed declares enclosures as "audio/mpeg"
+# (the real IANA type) -- that mismatch, present on every single episode, is a
+# concrete, verifiable inconsistency a strict parser could reject on. jsDelivr
+# serves .mp3 correctly as "audio/mpeg", so: feed.xml + artwork from Pages
+# (correct application/xml, image/png), audio enclosures from jsDelivr (correct
+# audio/mpeg) -- each host for what it actually serves right.
 PAGES_BASE = f"https://{REPO_OWNER}.github.io/{REPO_NAME}"
+JSDELIVR_BASE = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@main"
 FEED_URL = f"{PAGES_BASE}/feed.xml"
 RAW_BASE = PAGES_BASE
+AUDIO_BASE = JSDELIVR_BASE
 
 SOURCE_LABELS = {
     "daily": "Daily",
@@ -53,7 +58,7 @@ def build_item(entry, episode_number):
     pub_dt = datetime.strptime(entry["date"], "%Y-%m-%d").replace(
         hour=hour, tzinfo=timezone.utc
     )
-    enclosure_url = f"{RAW_BASE}/audio/{filename}"
+    enclosure_url = f"{AUDIO_BASE}/audio/{filename}"
     guid = filename
     return f"""    <item>
       <title>{escape(title)}</title>
