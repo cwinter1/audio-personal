@@ -21,9 +21,11 @@ jobs:
         run: python3 scripts/generate_feed.py
 
       - name: Commit feed.xml if changed
+        id: commit
         run: |
           if git diff --quiet feed.xml; then
             echo "feed.xml unchanged"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -31,3 +33,14 @@ jobs:
           git add feed.xml
           git commit -m "Regenerate feed.xml"
           git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # The feed and audio files are served through jsDelivr's GitHub CDN mirror
+      # (not raw.githubusercontent.com, which sends the wrong content-type and
+      # made Apple Podcasts reject the feed outright). jsDelivr caches for up to
+      # 7 days, so without this purge a new episode wouldn't show up in the app
+      # until the cache expired on its own.
+      - name: Purge jsDelivr cache
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -sS "https://purge.jsdelivr.net/gh/cwinter1/audio-personal@main/feed.xml" || true

@@ -15,7 +15,11 @@ from xml.sax.saxutils import escape
 
 REPO_OWNER = "cwinter1"
 REPO_NAME = "audio-personal"
-RAW_BASE = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main"
+# raw.githubusercontent.com serves .xml as text/plain with X-Content-Type-Options:
+# nosniff, which made Apple Podcasts refuse the feed outright. jsDelivr's GitHub
+# CDN mirror serves the same content with correct content-type (application/xml
+# for feed.xml, audio/mpeg for the .mp3 enclosures) and no auth/setup needed.
+RAW_BASE = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@main"
 
 SOURCE_LABELS = {
     "daily": "Daily",
@@ -67,6 +71,7 @@ def generate_feed(manifest, out_path="feed.xml"):
 
     now = format_datetime(datetime.now(timezone.utc))
     channel_link = f"https://github.com/{REPO_OWNER}/{REPO_NAME}"
+    image_url = f"{RAW_BASE}/artwork.png"
 
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -78,6 +83,17 @@ def generate_feed(manifest, out_path="feed.xml"):
     <itunes:type>serial</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Chris Winter</itunes:author>
+    <itunes:owner>
+      <itunes:name>Chris Winter</itunes:name>
+      <itunes:email>new.chriswinter@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology" />
+    <itunes:image href="{image_url}" />
+    <image>
+      <url>{image_url}</url>
+      <title>AI Daily Brief — Personal Audio Archive</title>
+      <link>{channel_link}</link>
+    </image>
     <lastBuildDate>{now}</lastBuildDate>
 {chr(10).join(items)}
   </channel>
