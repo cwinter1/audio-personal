@@ -35,12 +35,7 @@ jobs:
           git push origin HEAD:main
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      # The feed and audio files are served through jsDelivr's GitHub CDN mirror
-      # (not raw.githubusercontent.com, which sends the wrong content-type and
-      # made Apple Podcasts reject the feed outright). jsDelivr caches for up to
-      # 7 days, so without this purge a new episode wouldn't show up in the app
-      # until the cache expired on its own.
-      - name: Purge jsDelivr cache
-        if: steps.commit.outputs.changed == 'true'
-        run: |
-          curl -sS "https://purge.jsdelivr.net/gh/cwinter1/audio-personal@main/feed.xml" || true
+      # Pushing to main here doesn't republish GitHub Pages by itself -- Pages
+      # only rebuilds on its own page_build event, which follows a push to the
+      # branch it's configured to serve. Since this step's commit above is itself
+      # a push to main, Pages picks it up automatically; nothing further needed.

@@ -15,12 +15,16 @@ from xml.sax.saxutils import escape
 
 REPO_OWNER = "cwinter1"
 REPO_NAME = "audio-personal"
-FEED_URL = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@main/feed.xml"
 # raw.githubusercontent.com serves .xml as text/plain with X-Content-Type-Options:
-# nosniff, which made Apple Podcasts refuse the feed outright. jsDelivr's GitHub
-# CDN mirror serves the same content with correct content-type (application/xml
-# for feed.xml, audio/mpeg for the .mp3 enclosures) and no auth/setup needed.
-RAW_BASE = f"https://cdn.jsdelivr.net/gh/{REPO_OWNER}/{REPO_NAME}@main"
+# nosniff, which made Apple Podcasts refuse the feed outright (attempt 1). jsDelivr's
+# GitHub CDN mirror fixed content-type but Apple's crawler still couldn't subscribe
+# (attempt 2) -- CDN bot-detection/WAF friction is the leading suspect, though never
+# confirmed since Apple gives no detail. GitHub Pages (attempt 3) is the standard,
+# widely-used host for exactly this pattern and has no history of that kind of
+# crawler friction.
+PAGES_BASE = f"https://{REPO_OWNER}.github.io/{REPO_NAME}"
+FEED_URL = f"{PAGES_BASE}/feed.xml"
+RAW_BASE = PAGES_BASE
 
 SOURCE_LABELS = {
     "daily": "Daily",
