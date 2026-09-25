@@ -32,8 +32,28 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed.xml
           git commit -m "Regenerate feed.xml"
-          git push origin HEAD:main
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          # The mp3-commit and manifest-commit pushes from news's audio_personal_sync
+          # land on main a second or so apart, and each independently triggers this
+          # workflow (paths: manifest.json / audio/**) -- so two runs regularly race
+          # to push the same feed.xml diff. Retry against a fresh fetch+rebase instead
+          # of failing the run outright on a losing push.
+          max_attempts=5
+          attempt=1
+          while true; do
+            if git push origin HEAD:main; then
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              break
+            fi
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "::error::Exhausted $max_attempts push attempts for feed.xml -- giving up."
+              exit 1
+            fi
+            echo "Push rejected (attempt $attempt/$max_attempts) -- fetching and rebasing before retry..."
+            git fetch origin main
+            git rebase origin/main
+            attempt=$((attempt + 1))
+          done
 
       # Pushing to main here doesn't republish GitHub Pages by itself -- Pages
       # only rebuilds on its own page_build event, which follows a push to the
