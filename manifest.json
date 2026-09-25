@@ -280,5 +280,11 @@
     "source": "daily",
     "date": "2026-09-25",
     "title": "🏆 SSIS Production & Final Project"
+  },
+  {
+    "filename": "fde_2026-09-25_layout-aware-document-parsing.mp3",
+    "source": "fde",
+    "date": "2026-09-25",
+    "title": "📄 Layout-Aware Document Parsing"
   }
 ]
