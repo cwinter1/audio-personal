@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 24 Sep 2026 07:18:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 04:56:14 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -434,6 +434,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-24_streaming-vector-infra-against-legacy-sources.mp3" length="8001741" type="audio/mpeg" />
       <description>🏚️ Streaming Vector Infra Against Legacy Sources (FDE, 2026-09-24)</description>
+    </item>
+    <item>
+      <title>[Daily] 🏆 SSIS Production &amp; Final Project</title>
+      <guid isPermaLink="false">daily_2026-09-25_ssis-production-final-project.mp3</guid>
+      <pubDate>Fri, 25 Sep 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>47</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-25_ssis-production-final-project.mp3" length="7509741" type="audio/mpeg" />
+      <description>🏆 SSIS Production &amp; Final Project (Daily, 2026-09-25)</description>
     </item>
   </channel>
 </rss>
