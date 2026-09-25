@@ -23,24 +23,33 @@ jobs:
       - name: Commit feed.xml if changed
         id: commit
         run: |
-          if git diff --quiet feed.xml; then
-            echo "feed.xml unchanged"
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml
-          git commit -m "Regenerate feed.xml"
 
           # The mp3-commit and manifest-commit pushes from news's audio_personal_sync
           # land on main a second or so apart, and each independently triggers this
           # workflow (paths: manifest.json / audio/**) -- so two runs regularly race
-          # to push the same feed.xml diff. Retry against a fresh fetch+rebase instead
-          # of failing the run outright on a losing push.
+          # to regenerate and push feed.xml. feed.xml is a pure function of
+          # manifest.json + audio/, so on a losing push we don't rebase the stale
+          # snapshot we already committed (two independently-generated full-file
+          # rewrites reliably produce a real merge conflict, not just an identical
+          # diff, whenever the underlying manifest state itself differed between
+          # the two runs' checkouts) -- instead we discard it, reset to exactly
+          # what's on origin now, and regenerate feed.xml fresh from that. That's
+          # always the correct output for the latest state, never something to
+          # reconcile line-by-line against.
           max_attempts=5
           attempt=1
           while true; do
+            if git diff --quiet feed.xml; then
+              echo "feed.xml unchanged"
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            git add feed.xml
+            git commit -m "Regenerate feed.xml"
+
             if git push origin HEAD:main; then
               echo "changed=true" >> "$GITHUB_OUTPUT"
               break
@@ -49,9 +58,10 @@ jobs:
               echo "::error::Exhausted $max_attempts push attempts for feed.xml -- giving up."
               exit 1
             fi
-            echo "Push rejected (attempt $attempt/$max_attempts) -- fetching and rebasing before retry..."
+            echo "Push rejected (attempt $attempt/$max_attempts) -- resetting to latest origin/main and regenerating..."
             git fetch origin main
-            git rebase origin/main
+            git reset --hard origin/main
+            python3 scripts/generate_feed.py
             attempt=$((attempt + 1))
           done
 
