@@ -304,5 +304,11 @@
     "source": "daily",
     "date": "2026-09-27",
     "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
+  },
+  {
+    "filename": "fde_2026-09-27_synthetic-data-curation-for-finserv.mp3",
+    "source": "fde",
+    "date": "2026-09-27",
+    "title": "🧪 Synthetic Data Curation for FinServ"
   }
 ]
