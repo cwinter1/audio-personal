@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sun, 27 Sep 2026 05:19:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:49:20 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -479,6 +479,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-27_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="8390061" type="audio/mpeg" />
       <description>🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale (Daily, 2026-09-27)</description>
+    </item>
+    <item>
+      <title>[FDE] 🧪 Synthetic Data Curation for FinServ</title>
+      <guid isPermaLink="false">fde_2026-09-27_synthetic-data-curation-for-finserv.mp3</guid>
+      <pubDate>Sun, 27 Sep 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>52</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-27_synthetic-data-curation-for-finserv.mp3" length="7738797" type="audio/mpeg" />
+      <description>🧪 Synthetic Data Curation for FinServ (FDE, 2026-09-27)</description>
     </item>
   </channel>
 </rss>
