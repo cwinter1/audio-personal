@@ -298,5 +298,11 @@
     "source": "fde",
     "date": "2026-09-26",
     "title": "✂️ Semantic Chunking Strategies"
+  },
+  {
+    "filename": "daily_2026-09-27_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "daily",
+    "date": "2026-09-27",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
   }
 ]
