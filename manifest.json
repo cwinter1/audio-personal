@@ -316,5 +316,11 @@
     "source": "daily",
     "date": "2026-09-28",
     "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
+  },
+  {
+    "filename": "fde_2026-09-28_incremental-embedding-updates.mp3",
+    "source": "fde",
+    "date": "2026-09-28",
+    "title": "🔄 Incremental Embedding Updates"
   }
 ]
