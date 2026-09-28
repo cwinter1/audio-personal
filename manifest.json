@@ -310,5 +310,11 @@
     "source": "fde",
     "date": "2026-09-27",
     "title": "🧪 Synthetic Data Curation for FinServ"
+  },
+  {
+    "filename": "daily_2026-09-28_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3",
+    "source": "daily",
+    "date": "2026-09-28",
+    "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
   }
 ]
