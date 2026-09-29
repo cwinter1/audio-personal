@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 29 Sep 2026 06:02:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 06:27:39 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -515,6 +515,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-09-29_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3" length="9986709" type="audio/mpeg" />
       <description>🧭 Milvus &amp; Qdrant: What a Dedicated Vector Store Buys You (Daily, 2026-09-29)</description>
+    </item>
+    <item>
+      <title>[FDE] 🕸️ DataPrep Pipeline Orchestration</title>
+      <guid isPermaLink="false">fde_2026-09-29_dataprep-pipeline-orchestration.mp3</guid>
+      <pubDate>Tue, 29 Sep 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>56</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-29_dataprep-pipeline-orchestration.mp3" length="6182208" type="audio/mpeg" />
+      <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-09-29)</description>
     </item>
   </channel>
 </rss>
