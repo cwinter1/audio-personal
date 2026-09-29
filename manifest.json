@@ -328,5 +328,11 @@
     "source": "daily",
     "date": "2026-09-29",
     "title": "🧭 Milvus & Qdrant: What a Dedicated Vector Store Buys You"
+  },
+  {
+    "filename": "fde_2026-09-29_dataprep-pipeline-orchestration.mp3",
+    "source": "fde",
+    "date": "2026-09-29",
+    "title": "🕸️ DataPrep Pipeline Orchestration"
   }
 ]
