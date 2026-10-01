@@ -340,5 +340,11 @@
     "source": "fde",
     "date": "2026-09-30",
     "title": "🖥️ DataPrep for COBOL/Mainframe-Sourced Documents"
+  },
+  {
+    "filename": "daily_2026-10-01_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3",
+    "source": "daily",
+    "date": "2026-10-01",
+    "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
   }
 ]
