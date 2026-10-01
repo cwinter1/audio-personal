@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 01 Oct 2026 05:51:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 06:38:52 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -542,6 +542,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-01_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3" length="8200845" type="audio/mpeg" />
       <description>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (Daily, 2026-10-01)</description>
+    </item>
+    <item>
+      <title>[FDE] 🕵️ PII Masking with Presidio</title>
+      <guid isPermaLink="false">fde_2026-10-01_pii-masking-with-presidio.mp3</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>59</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-01_pii-masking-with-presidio.mp3" length="7450989" type="audio/mpeg" />
+      <description>🕵️ PII Masking with Presidio (FDE, 2026-10-01)</description>
     </item>
   </channel>
 </rss>
