@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 30 Sep 2026 06:07:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:50:57 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -533,6 +533,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-09-30_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7262061" type="audio/mpeg" />
       <description>🖥️ DataPrep for COBOL/Mainframe-Sourced Documents (FDE, 2026-09-30)</description>
+    </item>
+    <item>
+      <title>[Daily] 🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool</title>
+      <guid isPermaLink="false">daily_2026-10-01_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3</guid>
+      <pubDate>Thu, 01 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>58</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-01_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3" length="8200845" type="audio/mpeg" />
+      <description>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (Daily, 2026-10-01)</description>
     </item>
   </channel>
 </rss>
