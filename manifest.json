@@ -346,5 +346,11 @@
     "source": "daily",
     "date": "2026-10-01",
     "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
+  },
+  {
+    "filename": "fde_2026-10-01_pii-masking-with-presidio.mp3",
+    "source": "fde",
+    "date": "2026-10-01",
+    "title": "🕵️ PII Masking with Presidio"
   }
 ]
