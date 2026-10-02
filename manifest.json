@@ -352,5 +352,11 @@
     "source": "fde",
     "date": "2026-10-01",
     "title": "🕵️ PII Masking with Presidio"
+  },
+  {
+    "filename": "daily_2026-10-02_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3",
+    "source": "daily",
+    "date": "2026-10-02",
+    "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
   }
 ]
