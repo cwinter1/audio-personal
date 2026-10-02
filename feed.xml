@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 02 Oct 2026 05:36:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 06:18:30 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -560,6 +560,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-02_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3" length="7791309" type="audio/mpeg" />
       <description>📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines (Daily, 2026-10-02)</description>
+    </item>
+    <item>
+      <title>[FDE] 🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale</title>
+      <guid isPermaLink="false">fde_2026-10-02_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3</guid>
+      <pubDate>Fri, 02 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>61</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-02_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7621197" type="audio/mpeg" />
+      <description>🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale (FDE, 2026-10-02)</description>
     </item>
   </channel>
 </rss>
