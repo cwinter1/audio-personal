@@ -358,5 +358,11 @@
     "source": "daily",
     "date": "2026-10-02",
     "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
+  },
+  {
+    "filename": "fde_2026-10-02_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "fde",
+    "date": "2026-10-02",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
   }
 ]
