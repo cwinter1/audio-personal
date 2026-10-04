@@ -382,5 +382,11 @@
     "source": "daily",
     "date": "2026-10-04",
     "title": "📄 Layout-Aware Document Parsing"
+  },
+  {
+    "filename": "fde_2026-10-04_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3",
+    "source": "fde",
+    "date": "2026-10-04",
+    "title": "🧭 Milvus & Qdrant: What a Dedicated Vector Store Buys You"
   }
 ]
