@@ -376,5 +376,11 @@
     "source": "fde",
     "date": "2026-10-03",
     "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
+  },
+  {
+    "filename": "daily_2026-10-04_layout-aware-document-parsing.mp3",
+    "source": "daily",
+    "date": "2026-10-04",
+    "title": "📄 Layout-Aware Document Parsing"
   }
 ]
