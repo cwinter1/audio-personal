@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 03 Oct 2026 05:51:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 05:51:25 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -587,6 +587,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-03_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="8036397" type="audio/mpeg" />
       <description>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale (FDE, 2026-10-03)</description>
+    </item>
+    <item>
+      <title>[Daily] 📄 Layout-Aware Document Parsing</title>
+      <guid isPermaLink="false">daily_2026-10-04_layout-aware-document-parsing.mp3</guid>
+      <pubDate>Sun, 04 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>64</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-04_layout-aware-document-parsing.mp3" length="7607853" type="audio/mpeg" />
+      <description>📄 Layout-Aware Document Parsing (Daily, 2026-10-04)</description>
     </item>
   </channel>
 </rss>
