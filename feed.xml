@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 05 Oct 2026 05:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 06:21:57 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -614,6 +614,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-05_semantic-chunking-strategies.mp3" length="7446189" type="audio/mpeg" />
       <description>✂️ Semantic Chunking Strategies (Daily, 2026-10-05)</description>
+    </item>
+    <item>
+      <title>[FDE] 🎛️ HNSW/IVF-PQ Tuning Deep Dive</title>
+      <guid isPermaLink="false">fde_2026-10-05_hnswivf-pq-tuning-deep-dive.mp3</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>67</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-05_hnswivf-pq-tuning-deep-dive.mp3" length="7569069" type="audio/mpeg" />
+      <description>🎛️ HNSW/IVF-PQ Tuning Deep Dive (FDE, 2026-10-05)</description>
     </item>
   </channel>
 </rss>
