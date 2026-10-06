@@ -406,5 +406,11 @@
     "source": "daily",
     "date": "2026-10-06",
     "title": "🧪 Synthetic Data Curation for FinServ"
+  },
+  {
+    "filename": "fde_2026-10-06_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3",
+    "source": "fde",
+    "date": "2026-10-06",
+    "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
   }
 ]
