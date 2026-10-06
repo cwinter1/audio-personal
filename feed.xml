@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 05 Oct 2026 06:21:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:19:03 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -623,6 +623,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-05_hnswivf-pq-tuning-deep-dive.mp3" length="7569069" type="audio/mpeg" />
       <description>🎛️ HNSW/IVF-PQ Tuning Deep Dive (FDE, 2026-10-05)</description>
+    </item>
+    <item>
+      <title>[Daily] 🧪 Synthetic Data Curation for FinServ</title>
+      <guid isPermaLink="false">daily_2026-10-06_synthetic-data-curation-for-finserv.mp3</guid>
+      <pubDate>Tue, 06 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>68</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-06_synthetic-data-curation-for-finserv.mp3" length="7829901" type="audio/mpeg" />
+      <description>🧪 Synthetic Data Curation for FinServ (Daily, 2026-10-06)</description>
     </item>
   </channel>
 </rss>
