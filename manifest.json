@@ -412,5 +412,11 @@
     "source": "fde",
     "date": "2026-10-06",
     "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
+  },
+  {
+    "filename": "daily_2026-10-07_incremental-embedding-updates.mp3",
+    "source": "daily",
+    "date": "2026-10-07",
+    "title": "🔄 Incremental Embedding Updates"
   }
 ]
