@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 07 Oct 2026 05:56:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:33:26 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -650,6 +650,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-07_incremental-embedding-updates.mp3" length="7140525" type="audio/mpeg" />
       <description>🔄 Incremental Embedding Updates (Daily, 2026-10-07)</description>
+    </item>
+    <item>
+      <title>[FDE] 📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines</title>
+      <guid isPermaLink="false">fde_2026-10-07_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3</guid>
+      <pubDate>Wed, 07 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>71</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-07_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3" length="8193933" type="audio/mpeg" />
+      <description>📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines (FDE, 2026-10-07)</description>
     </item>
   </channel>
 </rss>
