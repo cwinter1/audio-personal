@@ -418,5 +418,11 @@
     "source": "daily",
     "date": "2026-10-07",
     "title": "🔄 Incremental Embedding Updates"
+  },
+  {
+    "filename": "fde_2026-10-07_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3",
+    "source": "fde",
+    "date": "2026-10-07",
+    "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
   }
 ]
