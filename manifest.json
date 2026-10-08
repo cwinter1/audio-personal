@@ -430,5 +430,11 @@
     "source": "daily",
     "date": "2026-10-08",
     "title": "🕸️ DataPrep Pipeline Orchestration"
+  },
+  {
+    "filename": "fde_2026-10-08_streaming-vector-infra-against-legacy-sources.mp3",
+    "source": "fde",
+    "date": "2026-10-08",
+    "title": "🏚️ Streaming Vector Infra Against Legacy Sources"
   }
 ]
