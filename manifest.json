@@ -424,5 +424,11 @@
     "source": "fde",
     "date": "2026-10-07",
     "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
+  },
+  {
+    "filename": "daily_2026-10-08_dataprep-pipeline-orchestration.mp3",
+    "source": "daily",
+    "date": "2026-10-08",
+    "title": "🕸️ DataPrep Pipeline Orchestration"
   }
 ]
