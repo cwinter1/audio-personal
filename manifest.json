@@ -448,5 +448,11 @@
     "source": "fde",
     "date": "2026-10-09",
     "title": "📄 Layout-Aware Document Parsing"
+  },
+  {
+    "filename": "daily_2026-10-10_pii-masking-with-presidio.mp3",
+    "source": "daily",
+    "date": "2026-10-10",
+    "title": "🕵️ PII Masking with Presidio"
   }
 ]
