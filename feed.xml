@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 13 Oct 2026 07:29:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 04:51:57 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -767,6 +767,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-13_dataprep-pipeline-orchestration.mp3" length="9358965" type="audio/mpeg" />
       <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-10-13)</description>
+    </item>
+    <item>
+      <title>[Daily] ⚖️ Claude vs Local Models: Decision Framework</title>
+      <guid isPermaLink="false">daily_2026-10-14_claude-vs-local-models-decision-framework.mp3</guid>
+      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>84</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-14_claude-vs-local-models-decision-framework.mp3" length="7476333" type="audio/mpeg" />
+      <description>⚖️ Claude vs Local Models: Decision Framework (Daily, 2026-10-14)</description>
     </item>
   </channel>
 </rss>
