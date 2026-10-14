@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 14 Oct 2026 04:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 05:28:02 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -776,6 +776,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-14_claude-vs-local-models-decision-framework.mp3" length="7476333" type="audio/mpeg" />
       <description>⚖️ Claude vs Local Models: Decision Framework (Daily, 2026-10-14)</description>
+    </item>
+    <item>
+      <title>[FDE] 🖥️ DataPrep for COBOL/Mainframe-Sourced Documents</title>
+      <guid isPermaLink="false">fde_2026-10-14_dataprep-for-cobolmainframe-sourced-documents.mp3</guid>
+      <pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>85</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-14_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7302093" type="audio/mpeg" />
+      <description>🖥️ DataPrep for COBOL/Mainframe-Sourced Documents (FDE, 2026-10-14)</description>
     </item>
   </channel>
 </rss>
