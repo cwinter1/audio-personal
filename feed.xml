@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 14 Oct 2026 05:28:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 04:35:28 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -785,6 +785,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-14_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7302093" type="audio/mpeg" />
       <description>🖥️ DataPrep for COBOL/Mainframe-Sourced Documents (FDE, 2026-10-14)</description>
+    </item>
+    <item>
+      <title>[Daily] 🧭 Prompting vs. RAG vs. Fine-Tuning vs. Agents</title>
+      <guid isPermaLink="false">daily_2026-10-15_prompting-vs-rag-vs-fine-tuning-vs-agents.mp3</guid>
+      <pubDate>Thu, 15 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>86</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-15_prompting-vs-rag-vs-fine-tuning-vs-agents.mp3" length="7476045" type="audio/mpeg" />
+      <description>🧭 Prompting vs. RAG vs. Fine-Tuning vs. Agents (Daily, 2026-10-15)</description>
     </item>
   </channel>
 </rss>
