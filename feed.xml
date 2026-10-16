@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 15 Oct 2026 05:14:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 04:32:04 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -803,6 +803,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-15_pii-masking-with-presidio.mp3" length="7546893" type="audio/mpeg" />
       <description>🕵️ PII Masking with Presidio (FDE, 2026-10-15)</description>
+    </item>
+    <item>
+      <title>[Daily] 💰 AI Economics: Tokens, Inference Cost &amp; Cost-Per-Successful-Task</title>
+      <guid isPermaLink="false">daily_2026-10-16_ai-economics-tokens-inference-cost-cost-per-successful-task.mp3</guid>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>88</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-16_ai-economics-tokens-inference-cost-cost-per-successful-task.mp3" length="7685133" type="audio/mpeg" />
+      <description>💰 AI Economics: Tokens, Inference Cost &amp; Cost-Per-Successful-Task (Daily, 2026-10-16)</description>
     </item>
   </channel>
 </rss>
