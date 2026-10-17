@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 17 Oct 2026 04:26:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 05:05:33 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -830,6 +830,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-17_advanced-ai-agents-react-multi-agent-patterns-guardrails.mp3" length="7850445" type="audio/mpeg" />
       <description>🪄 Advanced AI — Agents: ReAct, Multi-Agent Patterns &amp; Guardrails (Daily, 2026-10-17)</description>
+    </item>
+    <item>
+      <title>[FDE] 🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale</title>
+      <guid isPermaLink="false">fde_2026-10-17_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3</guid>
+      <pubDate>Sat, 17 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>91</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-17_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="8056365" type="audio/mpeg" />
+      <description>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale (FDE, 2026-10-17)</description>
     </item>
   </channel>
 </rss>
