@@ -556,5 +556,11 @@
     "source": "fde",
     "date": "2026-10-18",
     "title": "🧭 Milvus & Qdrant: What a Dedicated Vector Store Buys You"
+  },
+  {
+    "filename": "daily_2026-10-19_stealing-openais-function-calling-schema.mp3",
+    "source": "daily",
+    "date": "2026-10-19",
+    "title": "📐 Stealing OpenAI's Function Calling Schema"
   }
 ]
