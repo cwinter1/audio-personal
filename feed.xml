@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 21 Oct 2026 10:50:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:17:06 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -875,6 +875,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-21_copying-memgptletta-execution-architecture.mp3" length="6725808" type="audio/mpeg" />
       <description>🗂️ Copying MemGPT/Letta Execution Architecture (Daily, 2026-10-21)</description>
+    </item>
+    <item>
+      <title>[FDE] 🎛️ HNSW/IVF-PQ Tuning Deep Dive</title>
+      <guid isPermaLink="false">fde_2026-10-21_hnswivf-pq-tuning-deep-dive.mp3</guid>
+      <pubDate>Wed, 21 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>96</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-21_hnswivf-pq-tuning-deep-dive.mp3" length="5488704" type="audio/mpeg" />
+      <description>🎛️ HNSW/IVF-PQ Tuning Deep Dive (FDE, 2026-10-21)</description>
     </item>
   </channel>
 </rss>
