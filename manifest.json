@@ -568,5 +568,11 @@
     "source": "daily",
     "date": "2026-10-21",
     "title": "🗂️ Copying MemGPT/Letta Execution Architecture"
+  },
+  {
+    "filename": "fde_2026-10-21_hnswivf-pq-tuning-deep-dive.mp3",
+    "source": "fde",
+    "date": "2026-10-21",
+    "title": "🎛️ HNSW/IVF-PQ Tuning Deep Dive"
   }
 ]
