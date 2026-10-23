@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 22 Oct 2026 05:29:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 04:47:46 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -902,6 +902,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-22_streaming-vector-infra-against-legacy-sources.mp3" length="7356141" type="audio/mpeg" />
       <description>🏚️ Streaming Vector Infra Against Legacy Sources (FDE, 2026-10-22)</description>
+    </item>
+    <item>
+      <title>[Daily] 🤖 Copying AutoGen &amp; CrewAI Architecture</title>
+      <guid isPermaLink="false">daily_2026-10-23_copying-autogen-crewai-architecture.mp3</guid>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>99</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-23_copying-autogen-crewai-architecture.mp3" length="7434957" type="audio/mpeg" />
+      <description>🤖 Copying AutoGen &amp; CrewAI Architecture (Daily, 2026-10-23)</description>
     </item>
   </channel>
 </rss>
