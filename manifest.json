@@ -592,5 +592,11 @@
     "source": "daily",
     "date": "2026-10-23",
     "title": "🤖 Copying AutoGen & CrewAI Architecture"
+  },
+  {
+    "filename": "fde_2026-10-23_layout-aware-document-parsing.mp3",
+    "source": "fde",
+    "date": "2026-10-23",
+    "title": "📄 Layout-Aware Document Parsing"
   }
 ]
