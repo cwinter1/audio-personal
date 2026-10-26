@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sun, 25 Oct 2026 05:29:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:52:04 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -956,6 +956,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-25_synthetic-data-curation-for-finserv.mp3" length="5505120" type="audio/mpeg" />
       <description>🧪 Synthetic Data Curation for FinServ (FDE, 2026-10-25)</description>
+    </item>
+    <item>
+      <title>[Daily] 📇 Building an Internal Agent Registry</title>
+      <guid isPermaLink="false">daily_2026-10-26_building-an-internal-agent-registry.mp3</guid>
+      <pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>105</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-26_building-an-internal-agent-registry.mp3" length="5119776" type="audio/mpeg" />
+      <description>📇 Building an Internal Agent Registry (Daily, 2026-10-26)</description>
     </item>
   </channel>
 </rss>
