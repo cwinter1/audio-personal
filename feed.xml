@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 27 Oct 2026 05:07:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:46:29 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -983,6 +983,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-10-27_multi-agent-system-design-review-pipelines.mp3" length="5618160" type="audio/mpeg" />
       <description>🤝 Multi-Agent System Design &amp; Review Pipelines (Daily, 2026-10-27)</description>
+    </item>
+    <item>
+      <title>[FDE] 🕸️ DataPrep Pipeline Orchestration</title>
+      <guid isPermaLink="false">fde_2026-10-27_dataprep-pipeline-orchestration.mp3</guid>
+      <pubDate>Tue, 27 Oct 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>108</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-27_dataprep-pipeline-orchestration.mp3" length="5413968" type="audio/mpeg" />
+      <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-10-27)</description>
     </item>
   </channel>
 </rss>
