@@ -688,5 +688,11 @@
     "source": "daily",
     "date": "2026-10-31",
     "title": "⚙️ Re-implementing DSPy Prompt Optimization"
+  },
+  {
+    "filename": "fde_2026-10-31_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3",
+    "source": "fde",
+    "date": "2026-10-31",
+    "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
   }
 ]
