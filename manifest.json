@@ -682,5 +682,11 @@
     "source": "fde",
     "date": "2026-10-30",
     "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
+  },
+  {
+    "filename": "daily_2026-10-31_re-implementing-dspy-prompt-optimization.mp3",
+    "source": "daily",
+    "date": "2026-10-31",
+    "title": "⚙️ Re-implementing DSPy Prompt Optimization"
   }
 ]
