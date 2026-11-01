@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 31 Oct 2026 06:39:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 06:00:57 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1064,6 +1064,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-10-31_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="5880240" type="audio/mpeg" />
       <description>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale (FDE, 2026-10-31)</description>
+    </item>
+    <item>
+      <title>[Daily] ✨ Claude Design Patterns</title>
+      <guid isPermaLink="false">daily_2026-11-01_claude-design-patterns.mp3</guid>
+      <pubDate>Sun, 01 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>117</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-01_claude-design-patterns.mp3" length="7293453" type="audio/mpeg" />
+      <description>✨ Claude Design Patterns (Daily, 2026-11-01)</description>
     </item>
   </channel>
 </rss>
