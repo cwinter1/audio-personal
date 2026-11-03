@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 02 Nov 2026 06:56:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:47:43 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1100,6 +1100,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-02_hnswivf-pq-tuning-deep-dive.mp3" length="7817613" type="audio/mpeg" />
       <description>🎛️ HNSW/IVF-PQ Tuning Deep Dive (FDE, 2026-11-02)</description>
+    </item>
+    <item>
+      <title>[Daily] 📚 Open-Weight Models: Evaluating the Landscape</title>
+      <guid isPermaLink="false">daily_2026-11-03_open-weight-models-evaluating-the-landscape.mp3</guid>
+      <pubDate>Tue, 03 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>121</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-03_open-weight-models-evaluating-the-landscape.mp3" length="7196973" type="audio/mpeg" />
+      <description>📚 Open-Weight Models: Evaluating the Landscape (Daily, 2026-11-03)</description>
     </item>
   </channel>
 </rss>
