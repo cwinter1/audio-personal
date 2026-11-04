@@ -736,5 +736,11 @@
     "source": "daily",
     "date": "2026-11-04",
     "title": "🎨 Staying Current Without Chasing Every Release"
+  },
+  {
+    "filename": "fde_2026-11-04_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3",
+    "source": "fde",
+    "date": "2026-11-04",
+    "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines"
   }
 ]
