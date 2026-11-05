@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 05 Nov 2026 06:43:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 07:32:18 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1145,6 +1145,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-05_hermes-specialized-models.mp3" length="7742829" type="audio/mpeg" />
       <description>🎯 Hermes &amp; Specialized Models (Daily, 2026-11-05)</description>
+    </item>
+    <item>
+      <title>[FDE] 🏚️ Streaming Vector Infra Against Legacy Sources</title>
+      <guid isPermaLink="false">fde_2026-11-05_streaming-vector-infra-against-legacy-sources.mp3</guid>
+      <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>126</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-05_streaming-vector-infra-against-legacy-sources.mp3" length="7270413" type="audio/mpeg" />
+      <description>🏚️ Streaming Vector Infra Against Legacy Sources (FDE, 2026-11-05)</description>
     </item>
   </channel>
 </rss>
