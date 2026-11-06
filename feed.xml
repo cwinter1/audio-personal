@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 06 Nov 2026 06:39:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 07:52:14 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1163,6 +1163,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-06_copying-vllm-optimization-techniques.mp3" length="8034765" type="audio/mpeg" />
       <description>⚡ Copying vLLM Optimization Techniques (Daily, 2026-11-06)</description>
+    </item>
+    <item>
+      <title>[FDE] 📄 Layout-Aware Document Parsing</title>
+      <guid isPermaLink="false">fde_2026-11-06_layout-aware-document-parsing.mp3</guid>
+      <pubDate>Fri, 06 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>128</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-06_layout-aware-document-parsing.mp3" length="5190480" type="audio/mpeg" />
+      <description>📄 Layout-Aware Document Parsing (FDE, 2026-11-06)</description>
     </item>
   </channel>
 </rss>
