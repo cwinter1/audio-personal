@@ -772,5 +772,11 @@
     "source": "daily",
     "date": "2026-11-07",
     "title": "🔢 Quantization Breakdown (GGUF, AWQ, EXL2)"
+  },
+  {
+    "filename": "fde_2026-11-07_semantic-chunking-strategies.mp3",
+    "source": "fde",
+    "date": "2026-11-07",
+    "title": "✂️ Semantic Chunking Strategies"
   }
 ]
