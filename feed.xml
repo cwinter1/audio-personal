@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 06 Nov 2026 07:52:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:01:45 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1172,6 +1172,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-06_layout-aware-document-parsing.mp3" length="5190480" type="audio/mpeg" />
       <description>📄 Layout-Aware Document Parsing (FDE, 2026-11-06)</description>
+    </item>
+    <item>
+      <title>[Daily] 🔢 Quantization Breakdown (GGUF, AWQ, EXL2)</title>
+      <guid isPermaLink="false">daily_2026-11-07_quantization-breakdown-gguf-awq-exl2.mp3</guid>
+      <pubDate>Sat, 07 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>129</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-07_quantization-breakdown-gguf-awq-exl2.mp3" length="7208685" type="audio/mpeg" />
+      <description>🔢 Quantization Breakdown (GGUF, AWQ, EXL2) (Daily, 2026-11-07)</description>
     </item>
   </channel>
 </rss>
