@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 07 Nov 2026 06:42:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:03:30 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1190,6 +1190,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-07_semantic-chunking-strategies.mp3" length="8056749" type="audio/mpeg" />
       <description>✂️ Semantic Chunking Strategies (FDE, 2026-11-07)</description>
+    </item>
+    <item>
+      <title>[Daily] 🎯 Local Model Fine-Tuning with Unsloth &amp; LoRA</title>
+      <guid isPermaLink="false">daily_2026-11-08_local-model-fine-tuning-with-unsloth-lora.mp3</guid>
+      <pubDate>Sun, 08 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>131</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-08_local-model-fine-tuning-with-unsloth-lora.mp3" length="7277997" type="audio/mpeg" />
+      <description>🎯 Local Model Fine-Tuning with Unsloth &amp; LoRA (Daily, 2026-11-08)</description>
     </item>
   </channel>
 </rss>
