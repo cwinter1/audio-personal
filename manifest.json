@@ -778,5 +778,11 @@
     "source": "fde",
     "date": "2026-11-07",
     "title": "✂️ Semantic Chunking Strategies"
+  },
+  {
+    "filename": "daily_2026-11-08_local-model-fine-tuning-with-unsloth-lora.mp3",
+    "source": "daily",
+    "date": "2026-11-08",
+    "title": "🎯 Local Model Fine-Tuning with Unsloth & LoRA"
   }
 ]
