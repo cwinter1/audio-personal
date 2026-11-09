@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sun, 08 Nov 2026 06:52:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 06:18:38 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1208,6 +1208,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-08_synthetic-data-curation-for-finserv.mp3" length="7899885" type="audio/mpeg" />
       <description>🧪 Synthetic Data Curation for FinServ (FDE, 2026-11-08)</description>
+    </item>
+    <item>
+      <title>[Daily] 📟 Copying Edge-Device AI Deployments</title>
+      <guid isPermaLink="false">daily_2026-11-09_copying-edge-device-ai-deployments.mp3</guid>
+      <pubDate>Mon, 09 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>133</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-09_copying-edge-device-ai-deployments.mp3" length="7333581" type="audio/mpeg" />
+      <description>📟 Copying Edge-Device AI Deployments (Daily, 2026-11-09)</description>
     </item>
   </channel>
 </rss>
