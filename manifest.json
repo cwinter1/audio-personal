@@ -808,5 +808,11 @@
     "source": "daily",
     "date": "2026-11-10",
     "title": "📦 Skill/Tool Architecture Patterns"
+  },
+  {
+    "filename": "fde_2026-11-10_dataprep-pipeline-orchestration.mp3",
+    "source": "fde",
+    "date": "2026-11-10",
+    "title": "🕸️ DataPrep Pipeline Orchestration"
   }
 ]
