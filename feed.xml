@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 10 Nov 2026 07:24:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:57:12 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1235,6 +1235,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-10_skilltool-architecture-patterns.mp3" length="3742992" type="audio/mpeg" />
       <description>📦 Skill/Tool Architecture Patterns (Daily, 2026-11-10)</description>
+    </item>
+    <item>
+      <title>[FDE] 🕸️ DataPrep Pipeline Orchestration</title>
+      <guid isPermaLink="false">fde_2026-11-10_dataprep-pipeline-orchestration.mp3</guid>
+      <pubDate>Tue, 10 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>136</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-10_dataprep-pipeline-orchestration.mp3" length="7490253" type="audio/mpeg" />
+      <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-11-10)</description>
     </item>
   </channel>
 </rss>
