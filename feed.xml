@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 10 Nov 2026 07:57:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:16:53 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1244,6 +1244,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-10_dataprep-pipeline-orchestration.mp3" length="7490253" type="audio/mpeg" />
       <description>🕸️ DataPrep Pipeline Orchestration (FDE, 2026-11-10)</description>
+    </item>
+    <item>
+      <title>[Daily] ⚡ Agent Tooling: Caching, Cost &amp; Telemetry</title>
+      <guid isPermaLink="false">daily_2026-11-11_agent-tooling-caching-cost-telemetry.mp3</guid>
+      <pubDate>Wed, 11 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>137</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-11_agent-tooling-caching-cost-telemetry.mp3" length="5027040" type="audio/mpeg" />
+      <description>⚡ Agent Tooling: Caching, Cost &amp; Telemetry (Daily, 2026-11-11)</description>
     </item>
   </channel>
 </rss>
