@@ -814,5 +814,11 @@
     "source": "fde",
     "date": "2026-11-10",
     "title": "🕸️ DataPrep Pipeline Orchestration"
+  },
+  {
+    "filename": "daily_2026-11-11_agent-tooling-caching-cost-telemetry.mp3",
+    "source": "daily",
+    "date": "2026-11-11",
+    "title": "⚡ Agent Tooling: Caching, Cost & Telemetry"
   }
 ]
