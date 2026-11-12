@@ -832,5 +832,11 @@
     "source": "daily",
     "date": "2026-11-12",
     "title": "🧹 From Vibe Coding to Clean Code"
+  },
+  {
+    "filename": "fde_2026-11-12_pii-masking-with-presidio.mp3",
+    "source": "fde",
+    "date": "2026-11-12",
+    "title": "🕵️ PII Masking with Presidio"
   }
 ]
