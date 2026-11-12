@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 12 Nov 2026 07:13:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 07:55:22 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1271,6 +1271,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-12_from-vibe-coding-to-clean-code.mp3" length="3561696" type="audio/mpeg" />
       <description>🧹 From Vibe Coding to Clean Code (Daily, 2026-11-12)</description>
+    </item>
+    <item>
+      <title>[FDE] 🕵️ PII Masking with Presidio</title>
+      <guid isPermaLink="false">fde_2026-11-12_pii-masking-with-presidio.mp3</guid>
+      <pubDate>Thu, 12 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>140</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-12_pii-masking-with-presidio.mp3" length="4793904" type="audio/mpeg" />
+      <description>🕵️ PII Masking with Presidio (FDE, 2026-11-12)</description>
     </item>
   </channel>
 </rss>
