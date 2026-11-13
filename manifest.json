@@ -844,5 +844,11 @@
     "source": "daily",
     "date": "2026-11-13",
     "title": "📋 Stealing Top OSS Prompt Templates"
+  },
+  {
+    "filename": "fde_2026-11-13_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "fde",
+    "date": "2026-11-13",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale"
   }
 ]
