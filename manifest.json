@@ -856,5 +856,11 @@
     "source": "daily",
     "date": "2026-11-14",
     "title": "🚀 The 10x Solo Engineer Stack"
+  },
+  {
+    "filename": "fde_2026-11-14_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3",
+    "source": "fde",
+    "date": "2026-11-14",
+    "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
   }
 ]
