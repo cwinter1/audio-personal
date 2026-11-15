@@ -862,5 +862,11 @@
     "source": "fde",
     "date": "2026-11-14",
     "title": "🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale"
+  },
+  {
+    "filename": "daily_2026-11-15_the-netflixuber-medallion-data-architecture.mp3",
+    "source": "daily",
+    "date": "2026-11-15",
+    "title": "🥉 The Netflix/Uber Medallion Data Architecture"
   }
 ]
