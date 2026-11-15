@@ -868,5 +868,11 @@
     "source": "daily",
     "date": "2026-11-15",
     "title": "🥉 The Netflix/Uber Medallion Data Architecture"
+  },
+  {
+    "filename": "fde_2026-11-15_milvus-qdrant-what-a-dedicated-vector-store-buys-you.mp3",
+    "source": "fde",
+    "date": "2026-11-15",
+    "title": "🧭 Milvus & Qdrant: What a Dedicated Vector Store Buys You"
   }
 ]
