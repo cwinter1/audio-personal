@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 14 Nov 2026 07:28:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:32:23 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1316,6 +1316,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-14_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="7355376" type="audio/mpeg" />
       <description>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale (FDE, 2026-11-14)</description>
+    </item>
+    <item>
+      <title>[Daily] 🥉 The Netflix/Uber Medallion Data Architecture</title>
+      <guid isPermaLink="false">daily_2026-11-15_the-netflixuber-medallion-data-architecture.mp3</guid>
+      <pubDate>Sun, 15 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>145</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-15_the-netflixuber-medallion-data-architecture.mp3" length="4295952" type="audio/mpeg" />
+      <description>🥉 The Netflix/Uber Medallion Data Architecture (Daily, 2026-11-15)</description>
     </item>
   </channel>
 </rss>
