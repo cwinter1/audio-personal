@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 17 Nov 2026 08:22:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:46:42 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1352,6 +1352,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-17_the-event-driven-cdc-change-data-capture-pattern.mp3" length="7206716" type="audio/mpeg" />
       <description>📡 The Event-Driven CDC (Change Data Capture) Pattern (Daily, 2026-11-17)</description>
+    </item>
+    <item>
+      <title>[FDE] 🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool</title>
+      <guid isPermaLink="false">fde_2026-11-17_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3</guid>
+      <pubDate>Tue, 17 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>149</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-17_bm25-hybrid-search-when-vector-search-isnt-the-right-tool.mp3" length="6320304" type="audio/mpeg" />
+      <description>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (FDE, 2026-11-17)</description>
     </item>
   </channel>
 </rss>
