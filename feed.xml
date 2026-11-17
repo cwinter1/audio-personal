@@ -20,7 +20,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 16 Nov 2026 06:24:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:22:01 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <guid isPermaLink="false">daily_2026-08-26_capstone-streaming-pipeline.mp3</guid>
@@ -1343,6 +1343,15 @@
       <itunes:episodeType>full</itunes:episodeType>
       <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-16_copying-stripes-idempotency-engine.mp3" length="6819116" type="audio/mpeg" />
       <description>🔁 Copying Stripe's Idempotency Engine (Daily, 2026-11-16)</description>
+    </item>
+    <item>
+      <title>[Daily] 📡 The Event-Driven CDC (Change Data Capture) Pattern</title>
+      <guid isPermaLink="false">daily_2026-11-17_the-event-driven-cdc-change-data-capture-pattern.mp3</guid>
+      <pubDate>Tue, 17 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>148</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-17_the-event-driven-cdc-change-data-capture-pattern.mp3" length="7206716" type="audio/mpeg" />
+      <description>📡 The Event-Driven CDC (Change Data Capture) Pattern (Daily, 2026-11-17)</description>
     </item>
   </channel>
 </rss>
