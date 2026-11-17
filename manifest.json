@@ -880,5 +880,11 @@
     "source": "daily",
     "date": "2026-11-16",
     "title": "🔁 Copying Stripe's Idempotency Engine"
+  },
+  {
+    "filename": "daily_2026-11-17_the-event-driven-cdc-change-data-capture-pattern.mp3",
+    "source": "daily",
+    "date": "2026-11-17",
+    "title": "📡 The Event-Driven CDC (Change Data Capture) Pattern"
   }
 ]
