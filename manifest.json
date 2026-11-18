@@ -902,5 +902,15 @@
     "duration_seconds": 970.0,
     "description": "A feature store (like Feast) solves training/serving skew by defining a feature once and serving it consistently to both batch training jobs and low-latency online inference.\n\n- Offline store: historical feature values for training (usually a data warehouse table)\n- Online store: latest feature values, low-latency lookup (usually a key-value store)\n- The feature definition is shared between both, preventing subtle train/serve mismatches\n- Overkill for a single model; valuable once you have more than one consumer of the same features",
     "link": "https://github.com/cwinter1/news/issues/298"
+  },
+  {
+    "filename": "fde_2026-11-18_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3",
+    "source": "fde",
+    "date": "2026-11-18",
+    "title": "📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines",
+    "size_bytes": 7213824,
+    "duration_seconds": 1202.3,
+    "description": "Weeks 04-05 built the index and the ranking function; neither gets fed by itself. Something has to notice a claim was filed, updated, or reopened, turn it into an embedding, and land it in the vector store continuously, not as a nightly batch.\n\n- Partition assignment and keying strategy determine ordering guarantees and skew -- get this wrong and events for the same claim can process out of order\n- Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state\n- Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store\n- A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure",
+    "link": "https://github.com/cwinter1/news/issues/299"
   }
 ]
