@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 18 Nov 2026 07:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:22:41 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2290,6 +2290,38 @@ Source: https://github.com/cwinter1/news/issues/298</itunes:summary>
 - Online store: latest feature values, low-latency lookup (usually a key-value store)
 - The feature definition is shared between both, preventing subtle train/serve mismatches
 - Overkill for a single model; valuable once you have more than one consumer of the same features</p><p><a href="https://github.com/cwinter1/news/issues/298">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines</title>
+      <itunes:title>📡 Kafka/Redpanda Streaming Ingestion for Vector Pipelines</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/299</link>
+      <guid isPermaLink="false">fde_2026-11-18_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3</guid>
+      <pubDate>Wed, 18 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>151</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:20:02</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-18_kafkaredpanda-streaming-ingestion-for-vector-pipelines.mp3" length="7213824" type="audio/mpeg" />
+      <description>Weeks 04-05 built the index and the ranking function; neither gets fed by itself. Something has to notice a claim was filed, updated, or reopened, turn it into an embedding, and land it in the vector store continuously, not as a nightly batch.
+
+- Partition assignment and keying strategy determine ordering guarantees and skew -- get this wrong and events for the same claim can process out of order
+- Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state
+- Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store
+- A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure
+
+Source: https://github.com/cwinter1/news/issues/299</description>
+      <itunes:summary>Weeks 04-05 built the index and the ranking function; neither gets fed by itself. Something has to notice a claim was filed, updated, or reopened, turn it into an embedding, and land it in the vector store continuously, not as a nightly batch.
+
+- Partition assignment and keying strategy determine ordering guarantees and skew -- get this wrong and events for the same claim can process out of order
+- Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state
+- Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store
+- A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure
+
+Source: https://github.com/cwinter1/news/issues/299</itunes:summary>
+      <content:encoded><![CDATA[<p>Weeks 04-05 built the index and the ranking function; neither gets fed by itself. Something has to notice a claim was filed, updated, or reopened, turn it into an embedding, and land it in the vector store continuously, not as a nightly batch.</p><p>- Partition assignment and keying strategy determine ordering guarantees and skew -- get this wrong and events for the same claim can process out of order
+- Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state
+- Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store
+- A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure</p><p><a href="https://github.com/cwinter1/news/issues/299">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
