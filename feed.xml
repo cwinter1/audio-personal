@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 18 Nov 2026 07:02:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 07:37:32 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2258,6 +2258,38 @@
       <description>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (FDE, 2026-11-17)</description>
       <itunes:summary>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (FDE, 2026-11-17)</itunes:summary>
       <content:encoded><![CDATA[<p>🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool (FDE, 2026-11-17)</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🗃️ Building a Personal Feature Store</title>
+      <itunes:title>🗃️ Building a Personal Feature Store</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/298</link>
+      <guid isPermaLink="false">daily_2026-11-18_building-a-personal-feature-store.mp3</guid>
+      <pubDate>Wed, 18 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>150</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:16:10</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-18_building-a-personal-feature-store.mp3" length="5819904" type="audio/mpeg" />
+      <description>A feature store (like Feast) solves training/serving skew by defining a feature once and serving it consistently to both batch training jobs and low-latency online inference.
+
+- Offline store: historical feature values for training (usually a data warehouse table)
+- Online store: latest feature values, low-latency lookup (usually a key-value store)
+- The feature definition is shared between both, preventing subtle train/serve mismatches
+- Overkill for a single model; valuable once you have more than one consumer of the same features
+
+Source: https://github.com/cwinter1/news/issues/298</description>
+      <itunes:summary>A feature store (like Feast) solves training/serving skew by defining a feature once and serving it consistently to both batch training jobs and low-latency online inference.
+
+- Offline store: historical feature values for training (usually a data warehouse table)
+- Online store: latest feature values, low-latency lookup (usually a key-value store)
+- The feature definition is shared between both, preventing subtle train/serve mismatches
+- Overkill for a single model; valuable once you have more than one consumer of the same features
+
+Source: https://github.com/cwinter1/news/issues/298</itunes:summary>
+      <content:encoded><![CDATA[<p>A feature store (like Feast) solves training/serving skew by defining a feature once and serving it consistently to both batch training jobs and low-latency online inference.</p><p>- Offline store: historical feature values for training (usually a data warehouse table)
+- Online store: latest feature values, low-latency lookup (usually a key-value store)
+- The feature definition is shared between both, preventing subtle train/serve mismatches
+- Overkill for a single model; valuable once you have more than one consumer of the same features</p><p><a href="https://github.com/cwinter1/news/issues/298">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
