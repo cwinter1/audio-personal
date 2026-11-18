@@ -17,6 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install mutagen (reads MP3 duration for itunes:duration)
+        run: pip install mutagen
+
       - name: Generate feed.xml
         run: python3 scripts/generate_feed.py
 

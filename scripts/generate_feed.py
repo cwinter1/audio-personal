@@ -13,6 +13,11 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
 
+try:
+    from mutagen.mp3 import MP3
+except ImportError:  # duration is optional -- feed still valid without it
+    MP3 = None
+
 REPO_OWNER = "cwinter1"
 REPO_NAME = "audio-personal"
 # raw.githubusercontent.com serves .xml as text/plain with X-Content-Type-Options:
@@ -43,12 +48,53 @@ def load_manifest(path="manifest.json"):
         return json.load(f)
 
 
+def get_duration_seconds(entry, audio_path):
+    """Duration for itunes:duration. Prefer the value news recorded at sync
+    time; fall back to reading the MP3 header so the episodes imported before
+    that field existed still get one. None means unknown (tag is omitted)."""
+    recorded = entry.get("duration_seconds")
+    if recorded:
+        return float(recorded)
+    if MP3 is None:
+        return None
+    try:
+        return float(MP3(audio_path).info.length)
+    except Exception as e:
+        print(f"WARNING: cannot read duration of {audio_path}: {e}", file=sys.stderr)
+        return None
+
+
+def format_duration(seconds):
+    total = int(round(seconds))
+    return f"{total // 3600:02d}:{total % 3600 // 60:02d}:{total % 60:02d}"
+
+
+def cdata(text):
+    """Wrap text in CDATA, splitting any literal ']]>' so it can't end the section early."""
+    return "<![CDATA[" + text.replace("]]>", "]]]]><![CDATA[>") + "]]>"
+
+
+def build_show_notes(entry, label):
+    """(plain, html) show notes. Falls back to the old one-line description
+    for manifest entries that have no description."""
+    base = entry.get("description") or f"{entry['title']} ({label}, {entry['date']})"
+    link = entry.get("link")
+    plain = base
+    html = "".join(f"<p>{escape(p)}</p>" for p in base.split("\n\n") if p.strip())
+    if link:
+        plain += f"\n\nSource: {link}"
+        html += f'<p><a href="{escape(link)}">Source</a></p>'
+    return plain, html
+
+
 def build_item(entry, episode_number):
     filename = entry["filename"]
     audio_path = os.path.join("audio", filename)
     if not os.path.exists(audio_path):
         print(f"WARNING: {audio_path} listed in manifest but missing on disk, skipping", file=sys.stderr)
         return None
+    # Measured from the file in this checkout, not trusted from the manifest:
+    # Apple expects enclosure length to be the real byte count.
     size = os.path.getsize(audio_path)
     label = SOURCE_LABELS.get(entry["source"], entry["source"])
     title = f"[{label}] {entry['title']}"
@@ -60,14 +106,29 @@ def build_item(entry, episode_number):
     )
     enclosure_url = f"{AUDIO_BASE}/audio/{filename}"
     guid = filename
+    plain_notes, html_notes = build_show_notes(entry, label)
+    item_link = entry.get("link") or f"https://github.com/{REPO_OWNER}/{REPO_NAME}"
+    duration = get_duration_seconds(entry, audio_path)
+    duration_tag = (
+        f"\n      <itunes:duration>{format_duration(duration)}</itunes:duration>"
+        if duration else ""
+    )
+    # No itunes:season on purpose: with itunes:type "serial", Apple sorts by
+    # season first, which would split the one cross-source listening order
+    # (daily/fde/on-demand) this feed exists to provide into per-source blocks.
     return f"""    <item>
       <title>{escape(title)}</title>
+      <itunes:title>{escape(entry['title'])}</itunes:title>
+      <link>{escape(item_link)}</link>
       <guid isPermaLink="false">{escape(guid)}</guid>
       <pubDate>{format_datetime(pub_dt)}</pubDate>
       <itunes:episode>{episode_number}</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>{duration_tag}
       <enclosure url="{escape(enclosure_url)}" length="{size}" type="audio/mpeg" />
-      <description>{escape(entry['title'])} ({label}, {entry['date']})</description>
+      <description>{escape(plain_notes)}</description>
+      <itunes:summary>{escape(plain_notes)}</itunes:summary>
+      <content:encoded>{cdata(html_notes)}</content:encoded>
     </item>"""
 
 
@@ -91,6 +152,9 @@ def generate_feed(manifest, out_path="feed.xml"):
     <link>{channel_link}</link>
     <description>Personal archive of daily/FDE/on-demand AI Daily Brief episodes, in listening order.</description>
     <language>en-us</language>
+    <copyright>Personal use</copyright>
+    <itunes:subtitle>Daily, FDE and on-demand briefs in listening order</itunes:subtitle>
+    <itunes:summary>Personal archive of daily/FDE/on-demand AI Daily Brief episodes, in listening order.</itunes:summary>
     <itunes:type>serial</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Chris Winter</itunes:author>
