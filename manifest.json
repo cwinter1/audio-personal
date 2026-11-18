@@ -892,5 +892,15 @@
     "source": "fde",
     "date": "2026-11-17",
     "title": "🔤 BM25 Hybrid Search: When Vector Search Isn't the Right Tool"
+  },
+  {
+    "filename": "daily_2026-11-18_building-a-personal-feature-store.mp3",
+    "source": "daily",
+    "date": "2026-11-18",
+    "title": "🗃️ Building a Personal Feature Store",
+    "size_bytes": 5819904,
+    "duration_seconds": 970.0,
+    "description": "A feature store (like Feast) solves training/serving skew by defining a feature once and serving it consistently to both batch training jobs and low-latency online inference.\n\n- Offline store: historical feature values for training (usually a data warehouse table)\n- Online store: latest feature values, low-latency lookup (usually a key-value store)\n- The feature definition is shared between both, preventing subtle train/serve mismatches\n- Overkill for a single model; valuable once you have more than one consumer of the same features",
+    "link": "https://github.com/cwinter1/news/issues/298"
   }
 ]
