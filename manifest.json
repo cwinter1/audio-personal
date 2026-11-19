@@ -922,5 +922,15 @@
     "duration_seconds": 1844.4,
     "description": "WHOOP and Oura's proprietary Strain/Readiness scores are built from the same raw signals your Garmin already exposes: HRV, resting heart rate, and sleep stages. Understanding their published methodology lets you approximate the same insight on your own data.\n\n- HRV (heart rate variability) trend, not absolute value, is what predicts recovery\n- Sleep-stage proportions (deep/REM/light) matter more than total sleep duration alone\n- Strain-style scores combine heart-rate-zone time under a load curve, not just step count\n- Garmin's raw FIT files expose all the same underlying signals WHOOP/Oura compute their scores from",
     "link": "https://github.com/cwinter1/news/issues/300"
+  },
+  {
+    "filename": "fde_2026-11-19_streaming-vector-infra-against-legacy-sources.mp3",
+    "source": "fde",
+    "date": "2026-11-19",
+    "title": "🏚️ Streaming Vector Infra Against Legacy Sources",
+    "size_bytes": 8207084,
+    "duration_seconds": 2051.7,
+    "description": "Week 06 built the pipeline: Kafka topics, consumer groups, idempotent upsert into the vector index. This topic's lesson is that the source sets the latency floor -- no amount of downstream engineering makes a mainframe nightly batch extract into real-time data, a real and common constraint in BFSI where core systems are still on-prem MSSQL/Oracle or COBOL mainframes with only partial cloud migration.\n\n- Change data capture (CDC) on MSSQL/Oracle has real mechanics -- sys.sp_cdc_enable_table, DBMS_LOGMNR -- with real latency and load implications\n- A watermark/staleness contract is how downstream consumers know how fresh (or stale) the data behind a retrieval result actually is\n- Event-time vs. processing-time merging matters when a legacy batch extract lands hours after the events it describes\n- Being honest about your source's real latency floor is a design input, not a failure to engineer around",
+    "link": "https://github.com/cwinter1/news/issues/301"
   }
 ]
