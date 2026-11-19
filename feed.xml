@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 18 Nov 2026 08:22:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:31:30 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2322,6 +2322,38 @@ Source: https://github.com/cwinter1/news/issues/299</itunes:summary>
 - Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state
 - Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store
 - A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure</p><p><a href="https://github.com/cwinter1/news/issues/299">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] ⌚ Reverse-Engineering Fitness &amp; Health Algorithms</title>
+      <itunes:title>⌚ Reverse-Engineering Fitness &amp; Health Algorithms</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/300</link>
+      <guid isPermaLink="false">daily_2026-11-19_reverse-engineering-fitness-health-algorithms.mp3</guid>
+      <pubDate>Thu, 19 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>152</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:44</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-19_reverse-engineering-fitness-health-algorithms.mp3" length="7377740" type="audio/mpeg" />
+      <description>WHOOP and Oura's proprietary Strain/Readiness scores are built from the same raw signals your Garmin already exposes: HRV, resting heart rate, and sleep stages. Understanding their published methodology lets you approximate the same insight on your own data.
+
+- HRV (heart rate variability) trend, not absolute value, is what predicts recovery
+- Sleep-stage proportions (deep/REM/light) matter more than total sleep duration alone
+- Strain-style scores combine heart-rate-zone time under a load curve, not just step count
+- Garmin's raw FIT files expose all the same underlying signals WHOOP/Oura compute their scores from
+
+Source: https://github.com/cwinter1/news/issues/300</description>
+      <itunes:summary>WHOOP and Oura's proprietary Strain/Readiness scores are built from the same raw signals your Garmin already exposes: HRV, resting heart rate, and sleep stages. Understanding their published methodology lets you approximate the same insight on your own data.
+
+- HRV (heart rate variability) trend, not absolute value, is what predicts recovery
+- Sleep-stage proportions (deep/REM/light) matter more than total sleep duration alone
+- Strain-style scores combine heart-rate-zone time under a load curve, not just step count
+- Garmin's raw FIT files expose all the same underlying signals WHOOP/Oura compute their scores from
+
+Source: https://github.com/cwinter1/news/issues/300</itunes:summary>
+      <content:encoded><![CDATA[<p>WHOOP and Oura's proprietary Strain/Readiness scores are built from the same raw signals your Garmin already exposes: HRV, resting heart rate, and sleep stages. Understanding their published methodology lets you approximate the same insight on your own data.</p><p>- HRV (heart rate variability) trend, not absolute value, is what predicts recovery
+- Sleep-stage proportions (deep/REM/light) matter more than total sleep duration alone
+- Strain-style scores combine heart-rate-zone time under a load curve, not just step count
+- Garmin's raw FIT files expose all the same underlying signals WHOOP/Oura compute their scores from</p><p><a href="https://github.com/cwinter1/news/issues/300">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
