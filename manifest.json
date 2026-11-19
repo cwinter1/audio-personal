@@ -912,5 +912,15 @@
     "duration_seconds": 1202.3,
     "description": "Weeks 04-05 built the index and the ranking function; neither gets fed by itself. Something has to notice a claim was filed, updated, or reopened, turn it into an embedding, and land it in the vector store continuously, not as a nightly batch.\n\n- Partition assignment and keying strategy determine ordering guarantees and skew -- get this wrong and events for the same claim can process out of order\n- Idempotent upsert (content-hash keyed) is what makes at-least-once delivery safe to replay without duplicating or corrupting index state\n- Micro-batching with bounded concurrency and backoff is how a consumer keeps up without overwhelming the embedding API or vector store\n- A dead-letter queue with a real replay plan is not optional -- malformed events will happen, and silently dropping them is a data-integrity failure",
     "link": "https://github.com/cwinter1/news/issues/299"
+  },
+  {
+    "filename": "daily_2026-11-19_reverse-engineering-fitness-health-algorithms.mp3",
+    "source": "daily",
+    "date": "2026-11-19",
+    "title": "⌚ Reverse-Engineering Fitness & Health Algorithms",
+    "size_bytes": 7377740,
+    "duration_seconds": 1844.4,
+    "description": "WHOOP and Oura's proprietary Strain/Readiness scores are built from the same raw signals your Garmin already exposes: HRV, resting heart rate, and sleep stages. Understanding their published methodology lets you approximate the same insight on your own data.\n\n- HRV (heart rate variability) trend, not absolute value, is what predicts recovery\n- Sleep-stage proportions (deep/REM/light) matter more than total sleep duration alone\n- Strain-style scores combine heart-rate-zone time under a load curve, not just step count\n- Garmin's raw FIT files expose all the same underlying signals WHOOP/Oura compute their scores from",
+    "link": "https://github.com/cwinter1/news/issues/300"
   }
 ]
