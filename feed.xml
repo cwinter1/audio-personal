@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 19 Nov 2026 08:06:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:29:20 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2386,6 +2386,38 @@ Source: https://github.com/cwinter1/news/issues/301</itunes:summary>
 - A watermark/staleness contract is how downstream consumers know how fresh (or stale) the data behind a retrieval result actually is
 - Event-time vs. processing-time merging matters when a legacy batch extract lands hours after the events it describes
 - Being honest about your source's real latency floor is a design input, not a failure to engineer around</p><p><a href="https://github.com/cwinter1/news/issues/301">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🕵️ Stealing Modern Web Scraper Anti-Detection</title>
+      <itunes:title>🕵️ Stealing Modern Web Scraper Anti-Detection</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/302</link>
+      <guid isPermaLink="false">daily_2026-11-20_stealing-modern-web-scraper-anti-detection.mp3</guid>
+      <pubDate>Fri, 20 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>154</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:17:59</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-20_stealing-modern-web-scraper-anti-detection.mp3" length="6472944" type="audio/mpeg" />
+      <description>Commercial scraping networks survive at scale by mimicking real browser fingerprints at every layer -- TLS handshake, HTTP headers, and JS-detectable automation flags -- not just rotating IPs.
+
+- TLS/JA3 fingerprinting can identify a non-browser HTTP client even through a real proxy
+- Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched
+- Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection
+- Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms
+
+Source: https://github.com/cwinter1/news/issues/302</description>
+      <itunes:summary>Commercial scraping networks survive at scale by mimicking real browser fingerprints at every layer -- TLS handshake, HTTP headers, and JS-detectable automation flags -- not just rotating IPs.
+
+- TLS/JA3 fingerprinting can identify a non-browser HTTP client even through a real proxy
+- Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched
+- Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection
+- Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms
+
+Source: https://github.com/cwinter1/news/issues/302</itunes:summary>
+      <content:encoded><![CDATA[<p>Commercial scraping networks survive at scale by mimicking real browser fingerprints at every layer -- TLS handshake, HTTP headers, and JS-detectable automation flags -- not just rotating IPs.</p><p>- TLS/JA3 fingerprinting can identify a non-browser HTTP client even through a real proxy
+- Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched
+- Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection
+- Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms</p><p><a href="https://github.com/cwinter1/news/issues/302">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
