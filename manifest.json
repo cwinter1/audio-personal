@@ -942,5 +942,15 @@
     "duration_seconds": 1078.8,
     "description": "Commercial scraping networks survive at scale by mimicking real browser fingerprints at every layer -- TLS handshake, HTTP headers, and JS-detectable automation flags -- not just rotating IPs.\n\n- TLS/JA3 fingerprinting can identify a non-browser HTTP client even through a real proxy\n- Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched\n- Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection\n- Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms",
     "link": "https://github.com/cwinter1/news/issues/302"
+  },
+  {
+    "filename": "fde_2026-11-20_layout-aware-document-parsing.mp3",
+    "source": "fde",
+    "date": "2026-11-20",
+    "title": "📄 Layout-Aware Document Parsing",
+    "size_bytes": 6310724,
+    "duration_seconds": 680.6,
+    "description": "📄 Layout-Aware Document Parsing\nTurning scanned claim forms and multi-column PDFs into clean, structured text",
+    "link": "https://github.com/cwinter1/news/issues/303"
   }
 ]
