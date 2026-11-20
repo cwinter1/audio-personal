@@ -932,5 +932,15 @@
     "duration_seconds": 2051.7,
     "description": "Week 06 built the pipeline: Kafka topics, consumer groups, idempotent upsert into the vector index. This topic's lesson is that the source sets the latency floor -- no amount of downstream engineering makes a mainframe nightly batch extract into real-time data, a real and common constraint in BFSI where core systems are still on-prem MSSQL/Oracle or COBOL mainframes with only partial cloud migration.\n\n- Change data capture (CDC) on MSSQL/Oracle has real mechanics -- sys.sp_cdc_enable_table, DBMS_LOGMNR -- with real latency and load implications\n- A watermark/staleness contract is how downstream consumers know how fresh (or stale) the data behind a retrieval result actually is\n- Event-time vs. processing-time merging matters when a legacy batch extract lands hours after the events it describes\n- Being honest about your source's real latency floor is a design input, not a failure to engineer around",
     "link": "https://github.com/cwinter1/news/issues/301"
+  },
+  {
+    "filename": "daily_2026-11-20_stealing-modern-web-scraper-anti-detection.mp3",
+    "source": "daily",
+    "date": "2026-11-20",
+    "title": "🕵️ Stealing Modern Web Scraper Anti-Detection",
+    "size_bytes": 6472944,
+    "duration_seconds": 1078.8,
+    "description": "Commercial scraping networks survive at scale by mimicking real browser fingerprints at every layer -- TLS handshake, HTTP headers, and JS-detectable automation flags -- not just rotating IPs.\n\n- TLS/JA3 fingerprinting can identify a non-browser HTTP client even through a real proxy\n- Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched\n- Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection\n- Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms",
+    "link": "https://github.com/cwinter1/news/issues/302"
   }
 ]
