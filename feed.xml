@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 20 Nov 2026 07:29:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 08:06:58 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2418,6 +2418,28 @@ Source: https://github.com/cwinter1/news/issues/302</itunes:summary>
 - Headless browsers leak automation flags (navigator.webdriver) unless explicitly patched
 - Residential proxy rotation defeats IP-based rate limiting, not fingerprint-based detection
 - Ethical/ToS note: this is defensive knowledge for understanding detection, not a license to violate a site's terms</p><p><a href="https://github.com/cwinter1/news/issues/302">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 📄 Layout-Aware Document Parsing</title>
+      <itunes:title>📄 Layout-Aware Document Parsing</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/303</link>
+      <guid isPermaLink="false">fde_2026-11-20_layout-aware-document-parsing.mp3</guid>
+      <pubDate>Fri, 20 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>155</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:11:21</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-20_layout-aware-document-parsing.mp3" length="6310724" type="audio/mpeg" />
+      <description>📄 Layout-Aware Document Parsing
+Turning scanned claim forms and multi-column PDFs into clean, structured text
+
+Source: https://github.com/cwinter1/news/issues/303</description>
+      <itunes:summary>📄 Layout-Aware Document Parsing
+Turning scanned claim forms and multi-column PDFs into clean, structured text
+
+Source: https://github.com/cwinter1/news/issues/303</itunes:summary>
+      <content:encoded><![CDATA[<p>📄 Layout-Aware Document Parsing
+Turning scanned claim forms and multi-column PDFs into clean, structured text</p><p><a href="https://github.com/cwinter1/news/issues/303">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
