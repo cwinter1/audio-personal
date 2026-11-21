@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 21 Nov 2026 07:09:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:54:11 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2472,6 +2472,38 @@ Source: https://github.com/cwinter1/news/issues/304</itunes:summary>
 - Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one
 - Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off
 - The core loop (learn -&gt; quiz -&gt; spaced review) is a small state machine, not a complex ML system</p><p><a href="https://github.com/cwinter1/news/issues/304">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] ✂️ Semantic Chunking Strategies</title>
+      <itunes:title>✂️ Semantic Chunking Strategies</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/305</link>
+      <guid isPermaLink="false">fde_2026-11-21_semantic-chunking-strategies.mp3</guid>
+      <pubDate>Sat, 21 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>157</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:35:04</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-21_semantic-chunking-strategies.mp3" length="8417228" type="audio/mpeg" />
+      <description>Week 08 turned a scanned form or PDF into clean text and structured elements. Before any of that text can be embedded and searched, it has to be split into pieces small enough for an embedding model's context window and a retrieval system's relevance granularity -- and splitting badly silently degrades every downstream retrieval result.
+
+- Fixed-size chunking is the simplest baseline but routinely cuts sentences and arguments in half
+- Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute
+- Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size
+- Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance
+
+Source: https://github.com/cwinter1/news/issues/305</description>
+      <itunes:summary>Week 08 turned a scanned form or PDF into clean text and structured elements. Before any of that text can be embedded and searched, it has to be split into pieces small enough for an embedding model's context window and a retrieval system's relevance granularity -- and splitting badly silently degrades every downstream retrieval result.
+
+- Fixed-size chunking is the simplest baseline but routinely cuts sentences and arguments in half
+- Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute
+- Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size
+- Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance
+
+Source: https://github.com/cwinter1/news/issues/305</itunes:summary>
+      <content:encoded><![CDATA[<p>Week 08 turned a scanned form or PDF into clean text and structured elements. Before any of that text can be embedded and searched, it has to be split into pieces small enough for an embedding model's context window and a retrieval system's relevance granularity -- and splitting badly silently degrades every downstream retrieval result.</p><p>- Fixed-size chunking is the simplest baseline but routinely cuts sentences and arguments in half
+- Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute
+- Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size
+- Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance</p><p><a href="https://github.com/cwinter1/news/issues/305">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
