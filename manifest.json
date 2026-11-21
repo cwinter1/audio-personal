@@ -962,5 +962,15 @@
     "duration_seconds": 1878.6,
     "description": "Duolingo's engagement loop combines spaced repetition (reviewing material right before you'd forget it) with streak/loss-aversion mechanics. Both are copyable patterns for any personal learning app.\n\n- Spaced repetition schedules review intervals based on how well you answered last time, not a fixed calendar\n- Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one\n- Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off\n- The core loop (learn -> quiz -> spaced review) is a small state machine, not a complex ML system",
     "link": "https://github.com/cwinter1/news/issues/304"
+  },
+  {
+    "filename": "fde_2026-11-21_semantic-chunking-strategies.mp3",
+    "source": "fde",
+    "date": "2026-11-21",
+    "title": "✂️ Semantic Chunking Strategies",
+    "size_bytes": 8417228,
+    "duration_seconds": 2104.2,
+    "description": "Week 08 turned a scanned form or PDF into clean text and structured elements. Before any of that text can be embedded and searched, it has to be split into pieces small enough for an embedding model's context window and a retrieval system's relevance granularity -- and splitting badly silently degrades every downstream retrieval result.\n\n- Fixed-size chunking is the simplest baseline but routinely cuts sentences and arguments in half\n- Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute\n- Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size\n- Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance",
+    "link": "https://github.com/cwinter1/news/issues/305"
   }
 ]
