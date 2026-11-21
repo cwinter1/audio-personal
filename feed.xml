@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 20 Nov 2026 08:07:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:09:10 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2440,6 +2440,38 @@ Turning scanned claim forms and multi-column PDFs into clean, structured text
 Source: https://github.com/cwinter1/news/issues/303</itunes:summary>
       <content:encoded><![CDATA[<p>📄 Layout-Aware Document Parsing
 Turning scanned claim forms and multi-column PDFs into clean, structured text</p><p><a href="https://github.com/cwinter1/news/issues/303">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🎮 Reverse-Engineering Duolingo's Gamification Loop</title>
+      <itunes:title>🎮 Reverse-Engineering Duolingo's Gamification Loop</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/304</link>
+      <guid isPermaLink="false">daily_2026-11-21_reverse-engineering-duolingos-gamification-loop.mp3</guid>
+      <pubDate>Sat, 21 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>156</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:19</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-21_reverse-engineering-duolingos-gamification-loop.mp3" length="7514444" type="audio/mpeg" />
+      <description>Duolingo's engagement loop combines spaced repetition (reviewing material right before you'd forget it) with streak/loss-aversion mechanics. Both are copyable patterns for any personal learning app.
+
+- Spaced repetition schedules review intervals based on how well you answered last time, not a fixed calendar
+- Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one
+- Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off
+- The core loop (learn -&gt; quiz -&gt; spaced review) is a small state machine, not a complex ML system
+
+Source: https://github.com/cwinter1/news/issues/304</description>
+      <itunes:summary>Duolingo's engagement loop combines spaced repetition (reviewing material right before you'd forget it) with streak/loss-aversion mechanics. Both are copyable patterns for any personal learning app.
+
+- Spaced repetition schedules review intervals based on how well you answered last time, not a fixed calendar
+- Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one
+- Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off
+- The core loop (learn -&gt; quiz -&gt; spaced review) is a small state machine, not a complex ML system
+
+Source: https://github.com/cwinter1/news/issues/304</itunes:summary>
+      <content:encoded><![CDATA[<p>Duolingo's engagement loop combines spaced repetition (reviewing material right before you'd forget it) with streak/loss-aversion mechanics. Both are copyable patterns for any personal learning app.</p><p>- Spaced repetition schedules review intervals based on how well you answered last time, not a fixed calendar
+- Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one
+- Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off
+- The core loop (learn -&gt; quiz -&gt; spaced review) is a small state machine, not a complex ML system</p><p><a href="https://github.com/cwinter1/news/issues/304">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
