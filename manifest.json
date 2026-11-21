@@ -952,5 +952,15 @@
     "duration_seconds": 680.6,
     "description": "📄 Layout-Aware Document Parsing\nTurning scanned claim forms and multi-column PDFs into clean, structured text",
     "link": "https://github.com/cwinter1/news/issues/303"
+  },
+  {
+    "filename": "daily_2026-11-21_reverse-engineering-duolingos-gamification-loop.mp3",
+    "source": "daily",
+    "date": "2026-11-21",
+    "title": "🎮 Reverse-Engineering Duolingo's Gamification Loop",
+    "size_bytes": 7514444,
+    "duration_seconds": 1878.6,
+    "description": "Duolingo's engagement loop combines spaced repetition (reviewing material right before you'd forget it) with streak/loss-aversion mechanics. Both are copyable patterns for any personal learning app.\n\n- Spaced repetition schedules review intervals based on how well you answered last time, not a fixed calendar\n- Streaks exploit loss aversion -- losing a 30-day streak feels worse than never having one\n- Difficulty adapts per-user: too easy loses engagement, too hard causes drop-off\n- The core loop (learn -> quiz -> spaced review) is a small state machine, not a complex ML system",
+    "link": "https://github.com/cwinter1/news/issues/304"
   }
 ]
