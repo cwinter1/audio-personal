@@ -972,5 +972,15 @@
     "duration_seconds": 2104.2,
     "description": "Week 08 turned a scanned form or PDF into clean text and structured elements. Before any of that text can be embedded and searched, it has to be split into pieces small enough for an embedding model's context window and a retrieval system's relevance granularity -- and splitting badly silently degrades every downstream retrieval result.\n\n- Fixed-size chunking is the simplest baseline but routinely cuts sentences and arguments in half\n- Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute\n- Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size\n- Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance",
     "link": "https://github.com/cwinter1/news/issues/305"
+  },
+  {
+    "filename": "daily_2026-11-22_copying-khan-academys-socratic-ai-tutor.mp3",
+    "source": "daily",
+    "date": "2026-11-22",
+    "title": "🎓 Copying Khan Academy's Socratic AI Tutor",
+    "size_bytes": 4730256,
+    "duration_seconds": 788.4,
+    "description": "Khanmigo's tutoring persona is enforced through prompting and a state machine that tracks what's already been revealed, so the AI nudges toward understanding instead of just stating the answer.\n\n- System prompt explicitly forbids stating the final answer directly, only guiding questions\n- A state machine tracks how many hints have been given, escalating specificity gradually\n- The tutor deliberately asks the student to explain their reasoning before validating it\n- This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails",
+    "link": "https://github.com/cwinter1/news/issues/306"
   }
 ]
