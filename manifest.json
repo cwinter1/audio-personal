@@ -982,5 +982,15 @@
     "duration_seconds": 788.4,
     "description": "Khanmigo's tutoring persona is enforced through prompting and a state machine that tracks what's already been revealed, so the AI nudges toward understanding instead of just stating the answer.\n\n- System prompt explicitly forbids stating the final answer directly, only guiding questions\n- A state machine tracks how many hints have been given, escalating specificity gradually\n- The tutor deliberately asks the student to explain their reasoning before validating it\n- This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails",
     "link": "https://github.com/cwinter1/news/issues/306"
+  },
+  {
+    "filename": "fde_2026-11-22_synthetic-data-curation-for-finserv.mp3",
+    "source": "fde",
+    "date": "2026-11-22",
+    "title": "🧪 Synthetic Data Curation for FinServ",
+    "size_bytes": 5297472,
+    "duration_seconds": 882.9,
+    "description": "This topic is about what feeds a dev/test environment before any real data does. In a regulated industry, testing a new pipeline against real claims or policy data carries real compliance risk -- realistic synthetic data lets engineering move fast without that exposure.\n\n- Realistic synthetic data needs correct statistical distributions, not just plausible-looking individual records\n- Referential integrity across synthetic tables (a synthetic claim referencing a synthetic policy) has to be maintained deliberately\n- Domain-specific generators (policy numbers, claim statuses, realistic date sequences) beat generic fake-data libraries for BFSI-specific fields\n- Synthetic data is a compliance control, not just a testing convenience -- it removes real-PII exposure from non-production environments entirely",
+    "link": "https://github.com/cwinter1/news/issues/307"
   }
 ]
