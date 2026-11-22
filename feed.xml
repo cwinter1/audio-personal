@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 21 Nov 2026 07:54:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:52:33 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2504,6 +2504,38 @@ Source: https://github.com/cwinter1/news/issues/305</itunes:summary>
 - Semantic chunking (splitting on meaning boundaries, not just character counts) generally retrieves better but costs more to compute
 - Chunk size is a real tuning parameter that trades off retrieval precision against context completeness -- there's no universal right size
 - Overlap between chunks is a deliberate mitigation for boundary information loss, not free insurance</p><p><a href="https://github.com/cwinter1/news/issues/305">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🎓 Copying Khan Academy's Socratic AI Tutor</title>
+      <itunes:title>🎓 Copying Khan Academy's Socratic AI Tutor</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/306</link>
+      <guid isPermaLink="false">daily_2026-11-22_copying-khan-academys-socratic-ai-tutor.mp3</guid>
+      <pubDate>Sun, 22 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>158</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:13:08</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-22_copying-khan-academys-socratic-ai-tutor.mp3" length="4730256" type="audio/mpeg" />
+      <description>Khanmigo's tutoring persona is enforced through prompting and a state machine that tracks what's already been revealed, so the AI nudges toward understanding instead of just stating the answer.
+
+- System prompt explicitly forbids stating the final answer directly, only guiding questions
+- A state machine tracks how many hints have been given, escalating specificity gradually
+- The tutor deliberately asks the student to explain their reasoning before validating it
+- This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails
+
+Source: https://github.com/cwinter1/news/issues/306</description>
+      <itunes:summary>Khanmigo's tutoring persona is enforced through prompting and a state machine that tracks what's already been revealed, so the AI nudges toward understanding instead of just stating the answer.
+
+- System prompt explicitly forbids stating the final answer directly, only guiding questions
+- A state machine tracks how many hints have been given, escalating specificity gradually
+- The tutor deliberately asks the student to explain their reasoning before validating it
+- This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails
+
+Source: https://github.com/cwinter1/news/issues/306</itunes:summary>
+      <content:encoded><![CDATA[<p>Khanmigo's tutoring persona is enforced through prompting and a state machine that tracks what's already been revealed, so the AI nudges toward understanding instead of just stating the answer.</p><p>- System prompt explicitly forbids stating the final answer directly, only guiding questions
+- A state machine tracks how many hints have been given, escalating specificity gradually
+- The tutor deliberately asks the student to explain their reasoning before validating it
+- This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails</p><p><a href="https://github.com/cwinter1/news/issues/306">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
