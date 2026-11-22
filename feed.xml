@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sun, 22 Nov 2026 06:52:40 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 07:44:00 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2536,6 +2536,38 @@ Source: https://github.com/cwinter1/news/issues/306</itunes:summary>
 - A state machine tracks how many hints have been given, escalating specificity gradually
 - The tutor deliberately asks the student to explain their reasoning before validating it
 - This pattern generalizes beyond math -- any 'teach, don't tell' assistant needs the same guardrails</p><p><a href="https://github.com/cwinter1/news/issues/306">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🧪 Synthetic Data Curation for FinServ</title>
+      <itunes:title>🧪 Synthetic Data Curation for FinServ</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/307</link>
+      <guid isPermaLink="false">fde_2026-11-22_synthetic-data-curation-for-finserv.mp3</guid>
+      <pubDate>Sun, 22 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>159</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:14:43</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-22_synthetic-data-curation-for-finserv.mp3" length="5297472" type="audio/mpeg" />
+      <description>This topic is about what feeds a dev/test environment before any real data does. In a regulated industry, testing a new pipeline against real claims or policy data carries real compliance risk -- realistic synthetic data lets engineering move fast without that exposure.
+
+- Realistic synthetic data needs correct statistical distributions, not just plausible-looking individual records
+- Referential integrity across synthetic tables (a synthetic claim referencing a synthetic policy) has to be maintained deliberately
+- Domain-specific generators (policy numbers, claim statuses, realistic date sequences) beat generic fake-data libraries for BFSI-specific fields
+- Synthetic data is a compliance control, not just a testing convenience -- it removes real-PII exposure from non-production environments entirely
+
+Source: https://github.com/cwinter1/news/issues/307</description>
+      <itunes:summary>This topic is about what feeds a dev/test environment before any real data does. In a regulated industry, testing a new pipeline against real claims or policy data carries real compliance risk -- realistic synthetic data lets engineering move fast without that exposure.
+
+- Realistic synthetic data needs correct statistical distributions, not just plausible-looking individual records
+- Referential integrity across synthetic tables (a synthetic claim referencing a synthetic policy) has to be maintained deliberately
+- Domain-specific generators (policy numbers, claim statuses, realistic date sequences) beat generic fake-data libraries for BFSI-specific fields
+- Synthetic data is a compliance control, not just a testing convenience -- it removes real-PII exposure from non-production environments entirely
+
+Source: https://github.com/cwinter1/news/issues/307</itunes:summary>
+      <content:encoded><![CDATA[<p>This topic is about what feeds a dev/test environment before any real data does. In a regulated industry, testing a new pipeline against real claims or policy data carries real compliance risk -- realistic synthetic data lets engineering move fast without that exposure.</p><p>- Realistic synthetic data needs correct statistical distributions, not just plausible-looking individual records
+- Referential integrity across synthetic tables (a synthetic claim referencing a synthetic policy) has to be maintained deliberately
+- Domain-specific generators (policy numbers, claim statuses, realistic date sequences) beat generic fake-data libraries for BFSI-specific fields
+- Synthetic data is a compliance control, not just a testing convenience -- it removes real-PII exposure from non-production environments entirely</p><p><a href="https://github.com/cwinter1/news/issues/307">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
