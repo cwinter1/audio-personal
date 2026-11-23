@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 23 Nov 2026 07:42:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:22:20 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2590,6 +2590,38 @@ Zero-latency streaming transcription, merged from two separate speech-pipeline t
 Source: https://github.com/cwinter1/news/issues/308</itunes:summary>
       <content:encoded><![CDATA[<p>🎤 Real-Time Voice &amp; Audio-to-Action Workflows
 Zero-latency streaming transcription, merged from two separate speech-pipeline topics</p><p><a href="https://github.com/cwinter1/news/issues/308">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🔄 Incremental Embedding Updates</title>
+      <itunes:title>🔄 Incremental Embedding Updates</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/309</link>
+      <guid isPermaLink="false">fde_2026-11-23_incremental-embedding-updates.mp3</guid>
+      <pubDate>Mon, 23 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>161</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:45</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-23_incremental-embedding-updates.mp3" length="7380620" type="audio/mpeg" />
+      <description>Weeks 01-07 built the index; this topic keeps it honest after that. A vector index is not a write-once artifact -- the documents behind it keep changing, and the embedding model behind it eventually changes too. Neither event is optional to handle.
+
+- Content-hash-based change detection is what tells you a document actually changed, not just that it was touched
+- Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later
+- Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index
+- An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption
+
+Source: https://github.com/cwinter1/news/issues/309</description>
+      <itunes:summary>Weeks 01-07 built the index; this topic keeps it honest after that. A vector index is not a write-once artifact -- the documents behind it keep changing, and the embedding model behind it eventually changes too. Neither event is optional to handle.
+
+- Content-hash-based change detection is what tells you a document actually changed, not just that it was touched
+- Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later
+- Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index
+- An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption
+
+Source: https://github.com/cwinter1/news/issues/309</itunes:summary>
+      <content:encoded><![CDATA[<p>Weeks 01-07 built the index; this topic keeps it honest after that. A vector index is not a write-once artifact -- the documents behind it keep changing, and the embedding model behind it eventually changes too. Neither event is optional to handle.</p><p>- Content-hash-based change detection is what tells you a document actually changed, not just that it was touched
+- Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later
+- Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index
+- An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption</p><p><a href="https://github.com/cwinter1/news/issues/309">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
