@@ -1002,5 +1002,15 @@
     "duration_seconds": 733.7,
     "description": "🎤 Real-Time Voice & Audio-to-Action Workflows\nZero-latency streaming transcription, merged from two separate speech-pipeline topics",
     "link": "https://github.com/cwinter1/news/issues/308"
+  },
+  {
+    "filename": "fde_2026-11-23_incremental-embedding-updates.mp3",
+    "source": "fde",
+    "date": "2026-11-23",
+    "title": "🔄 Incremental Embedding Updates",
+    "size_bytes": 7380620,
+    "duration_seconds": 1845.1,
+    "description": "Weeks 01-07 built the index; this topic keeps it honest after that. A vector index is not a write-once artifact -- the documents behind it keep changing, and the embedding model behind it eventually changes too. Neither event is optional to handle.\n\n- Content-hash-based change detection is what tells you a document actually changed, not just that it was touched\n- Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later\n- Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index\n- An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption",
+    "link": "https://github.com/cwinter1/news/issues/309"
   }
 ]
