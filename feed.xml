@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sun, 22 Nov 2026 07:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 07:41:20 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2568,6 +2568,28 @@ Source: https://github.com/cwinter1/news/issues/307</itunes:summary>
 - Referential integrity across synthetic tables (a synthetic claim referencing a synthetic policy) has to be maintained deliberately
 - Domain-specific generators (policy numbers, claim statuses, realistic date sequences) beat generic fake-data libraries for BFSI-specific fields
 - Synthetic data is a compliance control, not just a testing convenience -- it removes real-PII exposure from non-production environments entirely</p><p><a href="https://github.com/cwinter1/news/issues/307">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🎤 Real-Time Voice &amp; Audio-to-Action Workflows</title>
+      <itunes:title>🎤 Real-Time Voice &amp; Audio-to-Action Workflows</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/308</link>
+      <guid isPermaLink="false">daily_2026-11-23_real-time-voice-audio-to-action-workflows.mp3</guid>
+      <pubDate>Mon, 23 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>160</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:12:14</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-23_real-time-voice-audio-to-action-workflows.mp3" length="6808100" type="audio/mpeg" />
+      <description>🎤 Real-Time Voice &amp; Audio-to-Action Workflows
+Zero-latency streaming transcription, merged from two separate speech-pipeline topics
+
+Source: https://github.com/cwinter1/news/issues/308</description>
+      <itunes:summary>🎤 Real-Time Voice &amp; Audio-to-Action Workflows
+Zero-latency streaming transcription, merged from two separate speech-pipeline topics
+
+Source: https://github.com/cwinter1/news/issues/308</itunes:summary>
+      <content:encoded><![CDATA[<p>🎤 Real-Time Voice &amp; Audio-to-Action Workflows
+Zero-latency streaming transcription, merged from two separate speech-pipeline topics</p><p><a href="https://github.com/cwinter1/news/issues/308">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
