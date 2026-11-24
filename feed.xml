@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 24 Nov 2026 09:52:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 10:32:08 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2654,6 +2654,38 @@ Source: https://github.com/cwinter1/news/issues/310</itunes:summary>
 - A dynamic cash-flow model recomputes forward projections whenever new transactions arrive
 - Balance sheets need point-in-time snapshots, not just a running transaction log
 - Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances</p><p><a href="https://github.com/cwinter1/news/issues/310">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🕸️ DataPrep Pipeline Orchestration</title>
+      <itunes:title>🕸️ DataPrep Pipeline Orchestration</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/311</link>
+      <guid isPermaLink="false">fde_2026-11-24_dataprep-pipeline-orchestration.mp3</guid>
+      <pubDate>Tue, 24 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>163</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:33</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-24_dataprep-pipeline-orchestration.mp3" length="7331180" type="audio/mpeg" />
+      <description>The previous topics each built one stage of a real DataPrep pipeline in isolation: parse a document, chunk it, decide when to re-embed it. This topic wires those stages together into one orchestrated pipeline and treats the orchestration itself as a first-class engineering problem, not just glue code.
+
+- DAG-based orchestration (the same pattern behind Airflow) makes a multi-stage pipeline's dependencies and retry behavior explicit
+- Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run
+- Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch
+- Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly
+
+Source: https://github.com/cwinter1/news/issues/311</description>
+      <itunes:summary>The previous topics each built one stage of a real DataPrep pipeline in isolation: parse a document, chunk it, decide when to re-embed it. This topic wires those stages together into one orchestrated pipeline and treats the orchestration itself as a first-class engineering problem, not just glue code.
+
+- DAG-based orchestration (the same pattern behind Airflow) makes a multi-stage pipeline's dependencies and retry behavior explicit
+- Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run
+- Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch
+- Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly
+
+Source: https://github.com/cwinter1/news/issues/311</itunes:summary>
+      <content:encoded><![CDATA[<p>The previous topics each built one stage of a real DataPrep pipeline in isolation: parse a document, chunk it, decide when to re-embed it. This topic wires those stages together into one orchestrated pipeline and treats the orchestration itself as a first-class engineering problem, not just glue code.</p><p>- DAG-based orchestration (the same pattern behind Airflow) makes a multi-stage pipeline's dependencies and retry behavior explicit
+- Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run
+- Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch
+- Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly</p><p><a href="https://github.com/cwinter1/news/issues/311">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
