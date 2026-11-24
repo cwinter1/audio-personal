@@ -1022,5 +1022,15 @@
     "duration_seconds": 1838.3,
     "description": "Bloomberg-style analytics start from the same raw material anyone has -- transactions -- and impose a consistent categorization and normalization layer to produce dynamic cash-flow and balance-sheet views.\n\n- The hard part isn't the math, it's consistent categorization of messy, inconsistently-labeled transactions\n- A dynamic cash-flow model recomputes forward projections whenever new transactions arrive\n- Balance sheets need point-in-time snapshots, not just a running transaction log\n- Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances",
     "link": "https://github.com/cwinter1/news/issues/310"
+  },
+  {
+    "filename": "fde_2026-11-24_dataprep-pipeline-orchestration.mp3",
+    "source": "fde",
+    "date": "2026-11-24",
+    "title": "🕸️ DataPrep Pipeline Orchestration",
+    "size_bytes": 7331180,
+    "duration_seconds": 1832.7,
+    "description": "The previous topics each built one stage of a real DataPrep pipeline in isolation: parse a document, chunk it, decide when to re-embed it. This topic wires those stages together into one orchestrated pipeline and treats the orchestration itself as a first-class engineering problem, not just glue code.\n\n- DAG-based orchestration (the same pattern behind Airflow) makes a multi-stage pipeline's dependencies and retry behavior explicit\n- Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run\n- Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch\n- Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly",
+    "link": "https://github.com/cwinter1/news/issues/311"
   }
 ]
