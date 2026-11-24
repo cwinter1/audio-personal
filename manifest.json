@@ -1012,5 +1012,15 @@
     "duration_seconds": 1845.1,
     "description": "Weeks 01-07 built the index; this topic keeps it honest after that. A vector index is not a write-once artifact -- the documents behind it keep changing, and the embedding model behind it eventually changes too. Neither event is optional to handle.\n\n- Content-hash-based change detection is what tells you a document actually changed, not just that it was touched\n- Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later\n- Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index\n- An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption",
     "link": "https://github.com/cwinter1/news/issues/309"
+  },
+  {
+    "filename": "daily_2026-11-24_reverse-engineering-bloomberg-terminal-analytics.mp3",
+    "source": "daily",
+    "date": "2026-11-24",
+    "title": "📊 Reverse-Engineering Bloomberg Terminal Analytics",
+    "size_bytes": 7353548,
+    "duration_seconds": 1838.3,
+    "description": "Bloomberg-style analytics start from the same raw material anyone has -- transactions -- and impose a consistent categorization and normalization layer to produce dynamic cash-flow and balance-sheet views.\n\n- The hard part isn't the math, it's consistent categorization of messy, inconsistently-labeled transactions\n- A dynamic cash-flow model recomputes forward projections whenever new transactions arrive\n- Balance sheets need point-in-time snapshots, not just a running transaction log\n- Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances",
+    "link": "https://github.com/cwinter1/news/issues/310"
   }
 ]
