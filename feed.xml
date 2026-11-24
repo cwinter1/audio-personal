@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Mon, 23 Nov 2026 08:22:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 09:51:57 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2622,6 +2622,38 @@ Source: https://github.com/cwinter1/news/issues/309</itunes:summary>
 - Re-embedding on every model upgrade is expensive at scale -- a staleness/freshness gate lets you decide what's worth re-embedding now vs. later
 - Idempotent upsert (from Week 06's pattern) is what makes incremental updates safe to retry without corrupting the index
 - An embedding-model version is itself metadata worth tracking per vector, not an implicit assumption</p><p><a href="https://github.com/cwinter1/news/issues/309">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 📊 Reverse-Engineering Bloomberg Terminal Analytics</title>
+      <itunes:title>📊 Reverse-Engineering Bloomberg Terminal Analytics</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/310</link>
+      <guid isPermaLink="false">daily_2026-11-24_reverse-engineering-bloomberg-terminal-analytics.mp3</guid>
+      <pubDate>Tue, 24 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>162</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:38</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-24_reverse-engineering-bloomberg-terminal-analytics.mp3" length="7353548" type="audio/mpeg" />
+      <description>Bloomberg-style analytics start from the same raw material anyone has -- transactions -- and impose a consistent categorization and normalization layer to produce dynamic cash-flow and balance-sheet views.
+
+- The hard part isn't the math, it's consistent categorization of messy, inconsistently-labeled transactions
+- A dynamic cash-flow model recomputes forward projections whenever new transactions arrive
+- Balance sheets need point-in-time snapshots, not just a running transaction log
+- Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances
+
+Source: https://github.com/cwinter1/news/issues/310</description>
+      <itunes:summary>Bloomberg-style analytics start from the same raw material anyone has -- transactions -- and impose a consistent categorization and normalization layer to produce dynamic cash-flow and balance-sheet views.
+
+- The hard part isn't the math, it's consistent categorization of messy, inconsistently-labeled transactions
+- A dynamic cash-flow model recomputes forward projections whenever new transactions arrive
+- Balance sheets need point-in-time snapshots, not just a running transaction log
+- Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances
+
+Source: https://github.com/cwinter1/news/issues/310</itunes:summary>
+      <content:encoded><![CDATA[<p>Bloomberg-style analytics start from the same raw material anyone has -- transactions -- and impose a consistent categorization and normalization layer to produce dynamic cash-flow and balance-sheet views.</p><p>- The hard part isn't the math, it's consistent categorization of messy, inconsistently-labeled transactions
+- A dynamic cash-flow model recomputes forward projections whenever new transactions arrive
+- Balance sheets need point-in-time snapshots, not just a running transaction log
+- Most personal finance dashboards skip reconciliation -- verifying computed balances against actual account balances</p><p><a href="https://github.com/cwinter1/news/issues/310">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
