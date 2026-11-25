@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Tue, 24 Nov 2026 10:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:26:54 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2686,6 +2686,38 @@ Source: https://github.com/cwinter1/news/issues/311</itunes:summary>
 - Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run
 - Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch
 - Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly</p><p><a href="https://github.com/cwinter1/news/issues/311">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 📉 Copying Quantitative Finance Risk Signals</title>
+      <itunes:title>📉 Copying Quantitative Finance Risk Signals</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/312</link>
+      <guid isPermaLink="false">daily_2026-11-25_copying-quantitative-finance-risk-signals.mp3</guid>
+      <pubDate>Wed, 25 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>164</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:33</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-25_copying-quantitative-finance-risk-signals.mp3" length="7571276" type="audio/mpeg" />
+      <description>Value-at-Risk (VaR) and Monte Carlo simulation are the standard tools quant desks use to answer 'how much could I realistically lose?' -- both are directly applicable to a personal investment portfolio.
+
+- VaR answers: 'with 95% confidence, I won't lose more than $X over the next N days'
+- Monte Carlo simulation runs thousands of random future price paths to estimate a full outcome distribution, not just one number
+- Historical VaR uses actual past returns; parametric VaR assumes a normal distribution (often wrong for real markets)
+- The value isn't a precise number -- it's building the habit of thinking in distributions, not point estimates
+
+Source: https://github.com/cwinter1/news/issues/312</description>
+      <itunes:summary>Value-at-Risk (VaR) and Monte Carlo simulation are the standard tools quant desks use to answer 'how much could I realistically lose?' -- both are directly applicable to a personal investment portfolio.
+
+- VaR answers: 'with 95% confidence, I won't lose more than $X over the next N days'
+- Monte Carlo simulation runs thousands of random future price paths to estimate a full outcome distribution, not just one number
+- Historical VaR uses actual past returns; parametric VaR assumes a normal distribution (often wrong for real markets)
+- The value isn't a precise number -- it's building the habit of thinking in distributions, not point estimates
+
+Source: https://github.com/cwinter1/news/issues/312</itunes:summary>
+      <content:encoded><![CDATA[<p>Value-at-Risk (VaR) and Monte Carlo simulation are the standard tools quant desks use to answer 'how much could I realistically lose?' -- both are directly applicable to a personal investment portfolio.</p><p>- VaR answers: 'with 95% confidence, I won't lose more than $X over the next N days'
+- Monte Carlo simulation runs thousands of random future price paths to estimate a full outcome distribution, not just one number
+- Historical VaR uses actual past returns; parametric VaR assumes a normal distribution (often wrong for real markets)
+- The value isn't a precise number -- it's building the habit of thinking in distributions, not point estimates</p><p><a href="https://github.com/cwinter1/news/issues/312">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
