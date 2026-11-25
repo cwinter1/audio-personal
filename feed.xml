@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 25 Nov 2026 08:26:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 09:12:33 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2718,6 +2718,38 @@ Source: https://github.com/cwinter1/news/issues/312</itunes:summary>
 - Monte Carlo simulation runs thousands of random future price paths to estimate a full outcome distribution, not just one number
 - Historical VaR uses actual past returns; parametric VaR assumes a normal distribution (often wrong for real markets)
 - The value isn't a precise number -- it's building the habit of thinking in distributions, not point estimates</p><p><a href="https://github.com/cwinter1/news/issues/312">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🖥️ DataPrep for COBOL/Mainframe-Sourced Documents</title>
+      <itunes:title>🖥️ DataPrep for COBOL/Mainframe-Sourced Documents</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/313</link>
+      <guid isPermaLink="false">fde_2026-11-25_dataprep-for-cobolmainframe-sourced-documents.mp3</guid>
+      <pubDate>Wed, 25 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>165</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:11</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-25_dataprep-for-cobolmainframe-sourced-documents.mp3" length="7482956" type="audio/mpeg" />
+      <description>Real BFSI DataPrep can't assume its input source is a reasonably modern document. A large share of core transaction and policy data in Israeli (and much real-world) FinServ still lives on COBOL mainframes -- this topic is about extracting usable data from that world into a modern pipeline.
+
+- Copybooks define fixed-width record layouts via byte offsets -- there's no self-describing schema, you parse against the copybook definition
+- EBCDIC is a different character encoding than ASCII/UTF-8 -- reading mainframe extracts wrong here produces silently garbled text, not an error
+- COMP-3 (packed decimal) and zoned-decimal formats pack numeric data at the byte level -- getting the unpacking wrong corrupts numbers silently
+- This is a real, common BFSI constraint, not a legacy edge case -- partial cloud migration is the norm, not the exception, in this industry
+
+Source: https://github.com/cwinter1/news/issues/313</description>
+      <itunes:summary>Real BFSI DataPrep can't assume its input source is a reasonably modern document. A large share of core transaction and policy data in Israeli (and much real-world) FinServ still lives on COBOL mainframes -- this topic is about extracting usable data from that world into a modern pipeline.
+
+- Copybooks define fixed-width record layouts via byte offsets -- there's no self-describing schema, you parse against the copybook definition
+- EBCDIC is a different character encoding than ASCII/UTF-8 -- reading mainframe extracts wrong here produces silently garbled text, not an error
+- COMP-3 (packed decimal) and zoned-decimal formats pack numeric data at the byte level -- getting the unpacking wrong corrupts numbers silently
+- This is a real, common BFSI constraint, not a legacy edge case -- partial cloud migration is the norm, not the exception, in this industry
+
+Source: https://github.com/cwinter1/news/issues/313</itunes:summary>
+      <content:encoded><![CDATA[<p>Real BFSI DataPrep can't assume its input source is a reasonably modern document. A large share of core transaction and policy data in Israeli (and much real-world) FinServ still lives on COBOL mainframes -- this topic is about extracting usable data from that world into a modern pipeline.</p><p>- Copybooks define fixed-width record layouts via byte offsets -- there's no self-describing schema, you parse against the copybook definition
+- EBCDIC is a different character encoding than ASCII/UTF-8 -- reading mainframe extracts wrong here produces silently garbled text, not an error
+- COMP-3 (packed decimal) and zoned-decimal formats pack numeric data at the byte level -- getting the unpacking wrong corrupts numbers silently
+- This is a real, common BFSI constraint, not a legacy edge case -- partial cloud migration is the norm, not the exception, in this industry</p><p><a href="https://github.com/cwinter1/news/issues/313">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
