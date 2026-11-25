@@ -1032,5 +1032,15 @@
     "duration_seconds": 1832.7,
     "description": "The previous topics each built one stage of a real DataPrep pipeline in isolation: parse a document, chunk it, decide when to re-embed it. This topic wires those stages together into one orchestrated pipeline and treats the orchestration itself as a first-class engineering problem, not just glue code.\n\n- DAG-based orchestration (the same pattern behind Airflow) makes a multi-stage pipeline's dependencies and retry behavior explicit\n- Idempotent task design (deterministic IDs, safe-to-retry writes) is what makes a pipeline recoverable after a partial failure, not just after a clean run\n- Each stage (parse, chunk, embed, upsert) should be independently retryable without re-running the whole pipeline from scratch\n- Orchestration failures need visibility -- a silently-stuck pipeline stage is worse than one that fails loudly",
     "link": "https://github.com/cwinter1/news/issues/311"
+  },
+  {
+    "filename": "daily_2026-11-25_copying-quantitative-finance-risk-signals.mp3",
+    "source": "daily",
+    "date": "2026-11-25",
+    "title": "📉 Copying Quantitative Finance Risk Signals",
+    "size_bytes": 7571276,
+    "duration_seconds": 1892.8,
+    "description": "Value-at-Risk (VaR) and Monte Carlo simulation are the standard tools quant desks use to answer 'how much could I realistically lose?' -- both are directly applicable to a personal investment portfolio.\n\n- VaR answers: 'with 95% confidence, I won't lose more than $X over the next N days'\n- Monte Carlo simulation runs thousands of random future price paths to estimate a full outcome distribution, not just one number\n- Historical VaR uses actual past returns; parametric VaR assumes a normal distribution (often wrong for real markets)\n- The value isn't a precise number -- it's building the habit of thinking in distributions, not point estimates",
+    "link": "https://github.com/cwinter1/news/issues/312"
   }
 ]
