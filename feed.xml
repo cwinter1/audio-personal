@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Wed, 25 Nov 2026 09:12:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:12:13 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2750,6 +2750,38 @@ Source: https://github.com/cwinter1/news/issues/313</itunes:summary>
 - EBCDIC is a different character encoding than ASCII/UTF-8 -- reading mainframe extracts wrong here produces silently garbled text, not an error
 - COMP-3 (packed decimal) and zoned-decimal formats pack numeric data at the byte level -- getting the unpacking wrong corrupts numbers silently
 - This is a real, common BFSI constraint, not a legacy edge case -- partial cloud migration is the norm, not the exception, in this industry</p><p><a href="https://github.com/cwinter1/news/issues/313">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 📄 Stealing Modern ATS Resume Parsers</title>
+      <itunes:title>📄 Stealing Modern ATS Resume Parsers</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/314</link>
+      <guid isPermaLink="false">daily_2026-11-26_stealing-modern-ats-resume-parsers.mp3</guid>
+      <pubDate>Thu, 26 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>166</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:51</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-26_stealing-modern-ats-resume-parsers.mp3" length="7643084" type="audio/mpeg" />
+      <description>Applicant Tracking Systems parse resumes into structured fields and score them against a job description's keywords and requirements -- understanding this scoring logic lets a personal job-search agent optimize against it directly.
+
+- ATS parsing often breaks on complex formatting (tables, columns, graphics) -- plain structured text parses most reliably
+- Keyword matching against the job description is still the dominant signal in most ATS scoring
+- Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly
+- A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first
+
+Source: https://github.com/cwinter1/news/issues/314</description>
+      <itunes:summary>Applicant Tracking Systems parse resumes into structured fields and score them against a job description's keywords and requirements -- understanding this scoring logic lets a personal job-search agent optimize against it directly.
+
+- ATS parsing often breaks on complex formatting (tables, columns, graphics) -- plain structured text parses most reliably
+- Keyword matching against the job description is still the dominant signal in most ATS scoring
+- Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly
+- A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first
+
+Source: https://github.com/cwinter1/news/issues/314</itunes:summary>
+      <content:encoded><![CDATA[<p>Applicant Tracking Systems parse resumes into structured fields and score them against a job description's keywords and requirements -- understanding this scoring logic lets a personal job-search agent optimize against it directly.</p><p>- ATS parsing often breaks on complex formatting (tables, columns, graphics) -- plain structured text parses most reliably
+- Keyword matching against the job description is still the dominant signal in most ATS scoring
+- Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly
+- A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first</p><p><a href="https://github.com/cwinter1/news/issues/314">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
