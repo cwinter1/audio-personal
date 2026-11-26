@@ -1062,5 +1062,15 @@
     "duration_seconds": 1910.7,
     "description": "Applicant Tracking Systems parse resumes into structured fields and score them against a job description's keywords and requirements -- understanding this scoring logic lets a personal job-search agent optimize against it directly.\n\n- ATS parsing often breaks on complex formatting (tables, columns, graphics) -- plain structured text parses most reliably\n- Keyword matching against the job description is still the dominant signal in most ATS scoring\n- Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly\n- A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first",
     "link": "https://github.com/cwinter1/news/issues/314"
+  },
+  {
+    "filename": "fde_2026-11-26_pii-masking-with-presidio.mp3",
+    "source": "fde",
+    "date": "2026-11-26",
+    "title": "🕵️ PII Masking with Presidio",
+    "size_bytes": 7544876,
+    "duration_seconds": 1886.2,
+    "description": "Every prior DataPrep stage moved raw claim text around without once asking what was in it. This topic closes that gap: detecting and masking PII before text gets embedded, with a fail-closed gate proven against real precision/recall numbers rather than trusted blindly.\n\n- Regex alone is not a masking strategy -- named-entity recognition (NER) catches what regex misses, and vice versa; you need both\n- Custom recognizers (with checksum validation, context-word score uplift) are needed for region-specific identifiers standard models don't cover\n- Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications\n- A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter\n- Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed",
+    "link": "https://github.com/cwinter1/news/issues/315"
   }
 ]
