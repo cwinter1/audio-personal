@@ -1052,5 +1052,15 @@
     "duration_seconds": 1870.7,
     "description": "Real BFSI DataPrep can't assume its input source is a reasonably modern document. A large share of core transaction and policy data in Israeli (and much real-world) FinServ still lives on COBOL mainframes -- this topic is about extracting usable data from that world into a modern pipeline.\n\n- Copybooks define fixed-width record layouts via byte offsets -- there's no self-describing schema, you parse against the copybook definition\n- EBCDIC is a different character encoding than ASCII/UTF-8 -- reading mainframe extracts wrong here produces silently garbled text, not an error\n- COMP-3 (packed decimal) and zoned-decimal formats pack numeric data at the byte level -- getting the unpacking wrong corrupts numbers silently\n- This is a real, common BFSI constraint, not a legacy edge case -- partial cloud migration is the norm, not the exception, in this industry",
     "link": "https://github.com/cwinter1/news/issues/313"
+  },
+  {
+    "filename": "daily_2026-11-26_stealing-modern-ats-resume-parsers.mp3",
+    "source": "daily",
+    "date": "2026-11-26",
+    "title": "📄 Stealing Modern ATS Resume Parsers",
+    "size_bytes": 7643084,
+    "duration_seconds": 1910.7,
+    "description": "Applicant Tracking Systems parse resumes into structured fields and score them against a job description's keywords and requirements -- understanding this scoring logic lets a personal job-search agent optimize against it directly.\n\n- ATS parsing often breaks on complex formatting (tables, columns, graphics) -- plain structured text parses most reliably\n- Keyword matching against the job description is still the dominant signal in most ATS scoring\n- Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly\n- A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first",
+    "link": "https://github.com/cwinter1/news/issues/314"
   }
 ]
