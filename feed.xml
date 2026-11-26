@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 26 Nov 2026 08:12:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:09:26 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2782,6 +2782,41 @@ Source: https://github.com/cwinter1/news/issues/314</itunes:summary>
 - Keyword matching against the job description is still the dominant signal in most ATS scoring
 - Section headers matter: ATS systems look for standard headers (Experience, Education, Skills) to parse correctly
 - A resume that reads well to a human can still score poorly if it doesn't parse cleanly to a machine first</p><p><a href="https://github.com/cwinter1/news/issues/314">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🕵️ PII Masking with Presidio</title>
+      <itunes:title>🕵️ PII Masking with Presidio</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/315</link>
+      <guid isPermaLink="false">fde_2026-11-26_pii-masking-with-presidio.mp3</guid>
+      <pubDate>Thu, 26 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>167</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:26</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-26_pii-masking-with-presidio.mp3" length="7544876" type="audio/mpeg" />
+      <description>Every prior DataPrep stage moved raw claim text around without once asking what was in it. This topic closes that gap: detecting and masking PII before text gets embedded, with a fail-closed gate proven against real precision/recall numbers rather than trusted blindly.
+
+- Regex alone is not a masking strategy -- named-entity recognition (NER) catches what regex misses, and vice versa; you need both
+- Custom recognizers (with checksum validation, context-word score uplift) are needed for region-specific identifiers standard models don't cover
+- Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications
+- A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter
+- Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed
+
+Source: https://github.com/cwinter1/news/issues/315</description>
+      <itunes:summary>Every prior DataPrep stage moved raw claim text around without once asking what was in it. This topic closes that gap: detecting and masking PII before text gets embedded, with a fail-closed gate proven against real precision/recall numbers rather than trusted blindly.
+
+- Regex alone is not a masking strategy -- named-entity recognition (NER) catches what regex misses, and vice versa; you need both
+- Custom recognizers (with checksum validation, context-word score uplift) are needed for region-specific identifiers standard models don't cover
+- Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications
+- A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter
+- Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed
+
+Source: https://github.com/cwinter1/news/issues/315</itunes:summary>
+      <content:encoded><![CDATA[<p>Every prior DataPrep stage moved raw claim text around without once asking what was in it. This topic closes that gap: detecting and masking PII before text gets embedded, with a fail-closed gate proven against real precision/recall numbers rather than trusted blindly.</p><p>- Regex alone is not a masking strategy -- named-entity recognition (NER) catches what regex misses, and vice versa; you need both
+- Custom recognizers (with checksum validation, context-word score uplift) are needed for region-specific identifiers standard models don't cover
+- Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications
+- A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter
+- Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed</p><p><a href="https://github.com/cwinter1/news/issues/315">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
