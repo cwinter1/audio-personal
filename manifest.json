@@ -1072,5 +1072,15 @@
     "duration_seconds": 1886.2,
     "description": "Every prior DataPrep stage moved raw claim text around without once asking what was in it. This topic closes that gap: detecting and masking PII before text gets embedded, with a fail-closed gate proven against real precision/recall numbers rather than trusted blindly.\n\n- Regex alone is not a masking strategy -- named-entity recognition (NER) catches what regex misses, and vice versa; you need both\n- Custom recognizers (with checksum validation, context-word score uplift) are needed for region-specific identifiers standard models don't cover\n- Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications\n- A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter\n- Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed",
     "link": "https://github.com/cwinter1/news/issues/315"
+  },
+  {
+    "filename": "daily_2026-11-27_reverse-engineering-linkedins-recommendation-graph.mp3",
+    "source": "daily",
+    "date": "2026-11-27",
+    "title": "🕸️ Reverse-Engineering LinkedIn's Recommendation Graph",
+    "size_bytes": 7231724,
+    "duration_seconds": 1807.9,
+    "description": "LinkedIn's People You May Know and feed ranking are graph algorithms over a social network -- the same graph-traversal logic (degrees of connection, mutual-connection weighting) can guide a personal outreach agent's targeting.\n\n- Second-degree connections (a connection of a connection) are the highest-value, lowest-friction outreach targets\n- Mutual-connection count is a strong proxy for how 'warm' an introduction request would land\n- Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy\n- LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to",
+    "link": "https://github.com/cwinter1/news/issues/316"
   }
 ]
