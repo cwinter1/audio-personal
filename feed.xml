@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 27 Nov 2026 08:21:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:10:44 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2849,6 +2849,41 @@ Source: https://github.com/cwinter1/news/issues/316</itunes:summary>
 - Mutual-connection count is a strong proxy for how 'warm' an introduction request would land
 - Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy
 - LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to</p><p><a href="https://github.com/cwinter1/news/issues/316">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale</title>
+      <itunes:title>🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/317</link>
+      <guid isPermaLink="false">fde_2026-11-27_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3</guid>
+      <pubDate>Fri, 27 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>169</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:26</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-27_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3" length="7304396" type="audio/mpeg" />
+      <description>The foundational concept behind every production RAG/retrieval system in fintech and insurance: why comparing a query embedding against every stored vector (exact k-nearest-neighbor search) works fine for a handful of records but breaks down completely at the scale of a bank's transaction history or an insurer's claims archive, and what approximate nearest-neighbor (ANN) search trades away to fix that.
+
+- Cosine similarity vs. Euclidean distance: when each is the right metric for text embeddings
+- Brute-force k-NN is O(n) per query -- fine for thousands of records, impossible at millions
+- HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time
+- Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug
+- This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this
+
+Source: https://github.com/cwinter1/news/issues/317</description>
+      <itunes:summary>The foundational concept behind every production RAG/retrieval system in fintech and insurance: why comparing a query embedding against every stored vector (exact k-nearest-neighbor search) works fine for a handful of records but breaks down completely at the scale of a bank's transaction history or an insurer's claims archive, and what approximate nearest-neighbor (ANN) search trades away to fix that.
+
+- Cosine similarity vs. Euclidean distance: when each is the right metric for text embeddings
+- Brute-force k-NN is O(n) per query -- fine for thousands of records, impossible at millions
+- HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time
+- Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug
+- This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this
+
+Source: https://github.com/cwinter1/news/issues/317</itunes:summary>
+      <content:encoded><![CDATA[<p>The foundational concept behind every production RAG/retrieval system in fintech and insurance: why comparing a query embedding against every stored vector (exact k-nearest-neighbor search) works fine for a handful of records but breaks down completely at the scale of a bank's transaction history or an insurer's claims archive, and what approximate nearest-neighbor (ANN) search trades away to fix that.</p><p>- Cosine similarity vs. Euclidean distance: when each is the right metric for text embeddings
+- Brute-force k-NN is O(n) per query -- fine for thousands of records, impossible at millions
+- HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time
+- Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug
+- This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this</p><p><a href="https://github.com/cwinter1/news/issues/317">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
