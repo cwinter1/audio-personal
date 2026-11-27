@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Thu, 26 Nov 2026 09:09:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:20:42 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2817,6 +2817,38 @@ Source: https://github.com/cwinter1/news/issues/315</itunes:summary>
 - Reversible anonymization (hash/encrypt with key custody) vs. irreversible masking is a real design decision with real compliance implications
 - A fail-closed gate -- refuse to embed if masking confidence is too low, rather than embed anyway -- is what makes this a real control, not a best-effort filter
 - Over-masking has a measurable retrieval-quality cost -- precision/recall on the masking gate itself needs to be measured, not assumed</p><p><a href="https://github.com/cwinter1/news/issues/315">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🕸️ Reverse-Engineering LinkedIn's Recommendation Graph</title>
+      <itunes:title>🕸️ Reverse-Engineering LinkedIn's Recommendation Graph</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/316</link>
+      <guid isPermaLink="false">daily_2026-11-27_reverse-engineering-linkedins-recommendation-graph.mp3</guid>
+      <pubDate>Fri, 27 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>168</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:08</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-27_reverse-engineering-linkedins-recommendation-graph.mp3" length="7231724" type="audio/mpeg" />
+      <description>LinkedIn's People You May Know and feed ranking are graph algorithms over a social network -- the same graph-traversal logic (degrees of connection, mutual-connection weighting) can guide a personal outreach agent's targeting.
+
+- Second-degree connections (a connection of a connection) are the highest-value, lowest-friction outreach targets
+- Mutual-connection count is a strong proxy for how 'warm' an introduction request would land
+- Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy
+- LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to
+
+Source: https://github.com/cwinter1/news/issues/316</description>
+      <itunes:summary>LinkedIn's People You May Know and feed ranking are graph algorithms over a social network -- the same graph-traversal logic (degrees of connection, mutual-connection weighting) can guide a personal outreach agent's targeting.
+
+- Second-degree connections (a connection of a connection) are the highest-value, lowest-friction outreach targets
+- Mutual-connection count is a strong proxy for how 'warm' an introduction request would land
+- Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy
+- LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to
+
+Source: https://github.com/cwinter1/news/issues/316</itunes:summary>
+      <content:encoded><![CDATA[<p>LinkedIn's People You May Know and feed ranking are graph algorithms over a social network -- the same graph-traversal logic (degrees of connection, mutual-connection weighting) can guide a personal outreach agent's targeting.</p><p>- Second-degree connections (a connection of a connection) are the highest-value, lowest-friction outreach targets
+- Mutual-connection count is a strong proxy for how 'warm' an introduction request would land
+- Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy
+- LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to</p><p><a href="https://github.com/cwinter1/news/issues/316">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
