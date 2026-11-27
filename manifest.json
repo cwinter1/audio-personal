@@ -1082,5 +1082,15 @@
     "duration_seconds": 1807.9,
     "description": "LinkedIn's People You May Know and feed ranking are graph algorithms over a social network -- the same graph-traversal logic (degrees of connection, mutual-connection weighting) can guide a personal outreach agent's targeting.\n\n- Second-degree connections (a connection of a connection) are the highest-value, lowest-friction outreach targets\n- Mutual-connection count is a strong proxy for how 'warm' an introduction request would land\n- Graph traversal (BFS from your own profile) is the core algorithm, not anything ML-heavy\n- LinkedIn's own API access for this kind of graph traversal is heavily restricted -- this is conceptual, not a scraping how-to",
     "link": "https://github.com/cwinter1/news/issues/316"
+  },
+  {
+    "filename": "fde_2026-11-27_vector-search-fundamentals-why-exact-k-nn-doesnt-scale.mp3",
+    "source": "fde",
+    "date": "2026-11-27",
+    "title": "🔍 Vector Search Fundamentals: Why Exact k-NN Doesn't Scale",
+    "size_bytes": 7304396,
+    "duration_seconds": 1826.0,
+    "description": "The foundational concept behind every production RAG/retrieval system in fintech and insurance: why comparing a query embedding against every stored vector (exact k-nearest-neighbor search) works fine for a handful of records but breaks down completely at the scale of a bank's transaction history or an insurer's claims archive, and what approximate nearest-neighbor (ANN) search trades away to fix that.\n\n- Cosine similarity vs. Euclidean distance: when each is the right metric for text embeddings\n- Brute-force k-NN is O(n) per query -- fine for thousands of records, impossible at millions\n- HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time\n- Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug\n- This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this",
+    "link": "https://github.com/cwinter1/news/issues/317"
   }
 ]
