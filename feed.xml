@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Fri, 27 Nov 2026 09:10:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 07:44:40 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2884,6 +2884,35 @@ Source: https://github.com/cwinter1/news/issues/317</itunes:summary>
 - HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time
 - Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug
 - This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this</p><p><a href="https://github.com/cwinter1/news/issues/317">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[Daily] 🥋 Computer Vision: Pose Estimation &amp; Automated Annotation</title>
+      <itunes:title>🥋 Computer Vision: Pose Estimation &amp; Automated Annotation</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/318</link>
+      <guid isPermaLink="false">daily_2026-11-28_computer-vision-pose-estimation-automated-annotation.mp3</guid>
+      <pubDate>Sat, 28 Nov 2026 04:00:00 +0000</pubDate>
+      <itunes:episode>170</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:30:13</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/daily_2026-11-28_computer-vision-pose-estimation-automated-annotation.mp3" length="7250444" type="audio/mpeg" />
+      <description>Pose estimation via MediaPipe/YOLO keypoint detection for movement analysis, and automated vision annotation pipelines that auto-label video into training datasets -- merged from two already-adjacent topics into one, since annotation pipelines are the direct next step after keypoint detection produces raw output.
+
+- Keypoint detection outputs raw coordinates -- turning that into usable movement analysis (joint angles, velocity) is a separate processing step most tutorials skip
+- Automated annotation pipelines only work as well as their confidence-thresholding -- auto-labeling everything without a human-review tier silently pollutes a training set
+- Pose estimation and auto-annotation compound in practice: keypoint output from one pass often becomes the auto-generated labels feeding the next model's training set
+
+Source: https://github.com/cwinter1/news/issues/318</description>
+      <itunes:summary>Pose estimation via MediaPipe/YOLO keypoint detection for movement analysis, and automated vision annotation pipelines that auto-label video into training datasets -- merged from two already-adjacent topics into one, since annotation pipelines are the direct next step after keypoint detection produces raw output.
+
+- Keypoint detection outputs raw coordinates -- turning that into usable movement analysis (joint angles, velocity) is a separate processing step most tutorials skip
+- Automated annotation pipelines only work as well as their confidence-thresholding -- auto-labeling everything without a human-review tier silently pollutes a training set
+- Pose estimation and auto-annotation compound in practice: keypoint output from one pass often becomes the auto-generated labels feeding the next model's training set
+
+Source: https://github.com/cwinter1/news/issues/318</itunes:summary>
+      <content:encoded><![CDATA[<p>Pose estimation via MediaPipe/YOLO keypoint detection for movement analysis, and automated vision annotation pipelines that auto-label video into training datasets -- merged from two already-adjacent topics into one, since annotation pipelines are the direct next step after keypoint detection produces raw output.</p><p>- Keypoint detection outputs raw coordinates -- turning that into usable movement analysis (joint angles, velocity) is a separate processing step most tutorials skip
+- Automated annotation pipelines only work as well as their confidence-thresholding -- auto-labeling everything without a human-review tier silently pollutes a training set
+- Pose estimation and auto-annotation compound in practice: keypoint output from one pass often becomes the auto-generated labels feeding the next model's training set</p><p><a href="https://github.com/cwinter1/news/issues/318">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
