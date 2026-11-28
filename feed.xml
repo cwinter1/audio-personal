@@ -23,7 +23,7 @@
       <title>AI Daily Brief — Personal Audio Archive</title>
       <link>https://github.com/cwinter1/audio-personal</link>
     </image>
-    <lastBuildDate>Sat, 28 Nov 2026 07:44:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:32:09 +0000</lastBuildDate>
     <item>
       <title>[Daily] 🚀 Capstone: Streaming Pipeline</title>
       <itunes:title>🚀 Capstone: Streaming Pipeline</itunes:title>
@@ -2913,6 +2913,41 @@ Source: https://github.com/cwinter1/news/issues/318</itunes:summary>
       <content:encoded><![CDATA[<p>Pose estimation via MediaPipe/YOLO keypoint detection for movement analysis, and automated vision annotation pipelines that auto-label video into training datasets -- merged from two already-adjacent topics into one, since annotation pipelines are the direct next step after keypoint detection produces raw output.</p><p>- Keypoint detection outputs raw coordinates -- turning that into usable movement analysis (joint angles, velocity) is a separate processing step most tutorials skip
 - Automated annotation pipelines only work as well as their confidence-thresholding -- auto-labeling everything without a human-review tier silently pollutes a training set
 - Pose estimation and auto-annotation compound in practice: keypoint output from one pass often becomes the auto-generated labels feeding the next model's training set</p><p><a href="https://github.com/cwinter1/news/issues/318">Source</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>[FDE] 🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale</title>
+      <itunes:title>🗄️ pgvector in Production: HNSW vs. IVFFlat at Scale</itunes:title>
+      <link>https://github.com/cwinter1/news/issues/319</link>
+      <guid isPermaLink="false">fde_2026-11-28_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3</guid>
+      <pubDate>Sat, 28 Nov 2026 05:00:00 +0000</pubDate>
+      <itunes:episode>171</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:31:55</itunes:duration>
+      <enclosure url="https://cdn.jsdelivr.net/gh/cwinter1/audio-personal@main/audio/fde_2026-11-28_pgvector-in-production-hnsw-vs-ivfflat-at-scale.mp3" length="7661612" type="audio/mpeg" />
+      <description>Week 01 established why approximate nearest-neighbor search beats brute-force k-NN at scale; this topic is where that theory becomes an operational Postgres decision. pgvector gives you two real indexing strategies -- HNSW and IVFFlat -- with genuinely different build-cost, memory, and operational tradeoffs, plus a whole class of correctness bugs that only show up when a similarity query gets combined with an ordinary SQL WHERE filter (claim status, line of business, effective date) the way every real BFSI query does.
+
+- vector/halfvec/sparsevec storage cost is a real capacity-planning number, not an afterthought -- a 5M-row table of 1536-dim vectors is ~28.65 GB in vector(1536) vs. ~14.34 GB in halfvec(1536)
+- HNSW needs no 'data must exist before building' precondition and no lists tuning; IVFFlat needs both, via a two-regime heuristic (rows/1000 up to 1M rows, then sqrt(rows))
+- Post-filtering a top-k ANN result by a SQL predicate can silently return far fewer rows than requested when the predicate is selective -- pre-filtering (filter-then-rank) is the fix, and hnsw.iterative_scan is pgvector's built-in recovery mechanism for this
+- The index is only used for ORDER BY embedding &lt;=&gt; $1 LIMIT k -- dropping LIMIT (a common ORM footgun) silently falls back to a full sequential scan and sort, and EXPLAIN (ANALYZE, BUFFERS) is how you prove it either way
+- The HNSW-vs-IVFFlat choice is also a real capability difference, not just a tuning knob: IVFFlat has no sparsevec_* or vect
+
+Source: https://github.com/cwinter1/news/issues/319</description>
+      <itunes:summary>Week 01 established why approximate nearest-neighbor search beats brute-force k-NN at scale; this topic is where that theory becomes an operational Postgres decision. pgvector gives you two real indexing strategies -- HNSW and IVFFlat -- with genuinely different build-cost, memory, and operational tradeoffs, plus a whole class of correctness bugs that only show up when a similarity query gets combined with an ordinary SQL WHERE filter (claim status, line of business, effective date) the way every real BFSI query does.
+
+- vector/halfvec/sparsevec storage cost is a real capacity-planning number, not an afterthought -- a 5M-row table of 1536-dim vectors is ~28.65 GB in vector(1536) vs. ~14.34 GB in halfvec(1536)
+- HNSW needs no 'data must exist before building' precondition and no lists tuning; IVFFlat needs both, via a two-regime heuristic (rows/1000 up to 1M rows, then sqrt(rows))
+- Post-filtering a top-k ANN result by a SQL predicate can silently return far fewer rows than requested when the predicate is selective -- pre-filtering (filter-then-rank) is the fix, and hnsw.iterative_scan is pgvector's built-in recovery mechanism for this
+- The index is only used for ORDER BY embedding &lt;=&gt; $1 LIMIT k -- dropping LIMIT (a common ORM footgun) silently falls back to a full sequential scan and sort, and EXPLAIN (ANALYZE, BUFFERS) is how you prove it either way
+- The HNSW-vs-IVFFlat choice is also a real capability difference, not just a tuning knob: IVFFlat has no sparsevec_* or vect
+
+Source: https://github.com/cwinter1/news/issues/319</itunes:summary>
+      <content:encoded><![CDATA[<p>Week 01 established why approximate nearest-neighbor search beats brute-force k-NN at scale; this topic is where that theory becomes an operational Postgres decision. pgvector gives you two real indexing strategies -- HNSW and IVFFlat -- with genuinely different build-cost, memory, and operational tradeoffs, plus a whole class of correctness bugs that only show up when a similarity query gets combined with an ordinary SQL WHERE filter (claim status, line of business, effective date) the way every real BFSI query does.</p><p>- vector/halfvec/sparsevec storage cost is a real capacity-planning number, not an afterthought -- a 5M-row table of 1536-dim vectors is ~28.65 GB in vector(1536) vs. ~14.34 GB in halfvec(1536)
+- HNSW needs no 'data must exist before building' precondition and no lists tuning; IVFFlat needs both, via a two-regime heuristic (rows/1000 up to 1M rows, then sqrt(rows))
+- Post-filtering a top-k ANN result by a SQL predicate can silently return far fewer rows than requested when the predicate is selective -- pre-filtering (filter-then-rank) is the fix, and hnsw.iterative_scan is pgvector's built-in recovery mechanism for this
+- The index is only used for ORDER BY embedding &lt;=&gt; $1 LIMIT k -- dropping LIMIT (a common ORM footgun) silently falls back to a full sequential scan and sort, and EXPLAIN (ANALYZE, BUFFERS) is how you prove it either way
+- The HNSW-vs-IVFFlat choice is also a real capability difference, not just a tuning knob: IVFFlat has no sparsevec_* or vect</p><p><a href="https://github.com/cwinter1/news/issues/319">Source</a></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
