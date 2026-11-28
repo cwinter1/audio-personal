@@ -1092,5 +1092,15 @@
     "duration_seconds": 1826.0,
     "description": "The foundational concept behind every production RAG/retrieval system in fintech and insurance: why comparing a query embedding against every stored vector (exact k-nearest-neighbor search) works fine for a handful of records but breaks down completely at the scale of a bank's transaction history or an insurer's claims archive, and what approximate nearest-neighbor (ANN) search trades away to fix that.\n\n- Cosine similarity vs. Euclidean distance: when each is the right metric for text embeddings\n- Brute-force k-NN is O(n) per query -- fine for thousands of records, impossible at millions\n- HNSW's core idea: a layered graph of 'highways' and fine-grained links that gives sub-linear query time\n- Approximate search trades a small, tunable recall loss for massive speed at scale -- this is a deliberate engineering tradeoff, not a bug\n- This is the first building block of the FDE_Fintech_Insurance track's Real-Time Vector Infrastructure phase -- pgvector, Milvus/Qdrant, and HNSW tuning all build on this",
     "link": "https://github.com/cwinter1/news/issues/317"
+  },
+  {
+    "filename": "daily_2026-11-28_computer-vision-pose-estimation-automated-annotation.mp3",
+    "source": "daily",
+    "date": "2026-11-28",
+    "title": "🥋 Computer Vision: Pose Estimation & Automated Annotation",
+    "size_bytes": 7250444,
+    "duration_seconds": 1812.6,
+    "description": "Pose estimation via MediaPipe/YOLO keypoint detection for movement analysis, and automated vision annotation pipelines that auto-label video into training datasets -- merged from two already-adjacent topics into one, since annotation pipelines are the direct next step after keypoint detection produces raw output.\n\n- Keypoint detection outputs raw coordinates -- turning that into usable movement analysis (joint angles, velocity) is a separate processing step most tutorials skip\n- Automated annotation pipelines only work as well as their confidence-thresholding -- auto-labeling everything without a human-review tier silently pollutes a training set\n- Pose estimation and auto-annotation compound in practice: keypoint output from one pass often becomes the auto-generated labels feeding the next model's training set",
+    "link": "https://github.com/cwinter1/news/issues/318"
   }
 ]
